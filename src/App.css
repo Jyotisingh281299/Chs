@@ -28555,8 +28555,8 @@ a.mute-video.stop {
 }
 @media (max-width: 575.98px) {
   .deals-list .nav li {
-    width: 42%;
-    margin: 0 10px;
+    width: 100%;
+    /* margin: 0 10px; */
   }
 }
 .deals-list .nav li:last-child {
