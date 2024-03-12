@@ -69,8 +69,13 @@ export const Navbar=[
     path:'',
   },
   {
-    id:5,
+    id:6,
     menu_name:'Blog',
+    path:'',
+  },
+  {
+    id:6,
+    menu_name:'Contact Us',
     path:'',
   },
 ]

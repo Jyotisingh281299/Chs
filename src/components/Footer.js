@@ -69,15 +69,15 @@ export default function Footer()
                                 <div className="footer-contact-info">
                                     <div className="footer-address">
                                         <span><i className="fas fa-map-marker-alt"></i></span>
-                                        <p> 3556 Beech Street, San Francisco,<br/> California, CA 94108 </p>
+                                        <p> Gomti Nagar, Lucknow </p>
                                     </div>
                                     <p>
                                         <i className="fas fa-phone-alt"></i>
-                                        +1 315 369 5943
+                                        +91 987653210
                                     </p>
                                     <p className="mb-0">
                                         <i className="fas fa-envelope"></i>
-                                        doccure@example.com
+                                        caresmart@gmail.com
                                     </p>
                                 </div>
                             </div>
@@ -91,12 +91,14 @@ export default function Footer()
                 <Container>
                     <div className="copyright">
                         <Row>
-                            <Col sm='6' md='6'>
+                            <Col sm='8' md='8'>
                                 <div className="copyright-text">
-                                    <p className="mb-0">© 2024 {companyName}. All rights reserved.</p>
+                                    <p className="mb-0">© 2024 {companyName}. All rights reserved.
+                                     Designed by <a href="https://softtrixsoftware.com/" target="_blank" className="text-white">Softtrix Software Pvt. Ltd.</a>
+                                    </p>
                                 </div>
                             </Col>
-                            <Col sm='6' md='6'>
+                            <Col sm='4' md='4'>
                                 <div className="copyright-menu">
                                     <ul className="policy-menu">
                                         <li><a href="#">Terms and Conditions</a></li>
