@@ -37798,3 +37798,12 @@ span[aria-label='Previous'], span[aria-label='Next']
   font-size: 16px;
   margin-bottom: 0;
 }
+
+/*  location and search icon */
+
+.section-search .banner-wrapper .search-box .search-info .form-control {
+  background: #ffffff url(../src/assets/img/icons/search.png) no-repeat 10px center;
+}
+.section-search .banner-wrapper .search-box .search-location .form-control {
+  background: #ffffff url(../src/assets/img/icons/location.png) no-repeat 10px center;
+}
