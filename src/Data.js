@@ -1,4 +1,3 @@
-import Pharmacy from './pages/pharmacy/Pharmacy';
 import cat_1 from '../src/assets/img/doctor-07.jpg';
 import cat_2 from '../src/assets/img/img-pharmacy1.jpg';
 import cat_3 from '../src/assets/img/lab-image.jpg';
@@ -42,43 +41,40 @@ import pharmacy_banner2 from '../src/assets/img/product-17.png';
 import pharmacy_banner3 from '../src/assets/img/product-18.png';
 
 
-export const Navbar=[
+
+
+export const Navbar = [
   {
-    id:1,
-    menu_name:'Home',
-    path:'/',
+    id: 1,
+    menu_name: 'Home',
+    path: '/',
   },
   {
-    id:2,
-    menu_name:'Doctors',
-    path:'',
+    id: 2,
+    menu_name: 'Doctors',
+    path: '/doctors', // Update with correct path
   },
   {
-    id:3,
-    menu_name:'Patients',
-    path:'',
+    id: 3,
+    menu_name: 'Patients',
+    path: '/patients', // Update with correct path
   },
   {
-    id:4,
-    menu_name:'Pharmacy',
-    path:'',
+    id: 4,
+    menu_name: 'Pharmacy',
+    path: '/pharmacy', // Update with correct path
   },
   {
-    id:5,
-    menu_name:'Medicine',
-    path:'',
+    id: 5,
+    menu_name: 'Blog',
+    path: '/blog', // Update with correct path
   },
   {
-    id:6,
-    menu_name:'Blog',
-    path:'',
+    id: 6,
+    menu_name: 'Contact Us',
+    path: '/contact', // Update with correct path
   },
-  {
-    id:6,
-    menu_name:'Contact Us',
-    path:'',
-  },
-]
+];
 
 
 
@@ -305,8 +301,8 @@ export const aboutData = {
   },
   experienceHeader: 'Over 25+ Years Experience',
   mainHeader: 'About Our Company',
-  content: 'Welcome to Caresmart Health Solution, your trusted partner in healthcare. Our dedicated team of healthcare professionals is committed to providing high-quality, compassionate care to our community. With a focus on patient well-being and a holistic approach to health, we strive to create a healing environment that promotes overall wellness. Our team of experienced doctors, nurses, and support staff work collaboratively to personalize your care plan. We understand that each patient is unique, and we tailor our services to address individual health concerns. Your health and comfort are our top priorities.',
-  emergencyNumber: '+91 9876543210',
+  content: 'Providing online medical consultation, pharmacy service, medical check-up to the people, arranging medical transportation for the people, creating employment for the people through e-hospital. To promote health awareness among the urban masses and rural areas to the youth by providing them access to modern technology, tele medicine, bearable/portable diagnostic devices and other equipments and to promote self-employment for the service of the people.',
+  emergencyNumber: '+91 7060977139',
 };
 
 
@@ -488,3 +484,5 @@ export const PharmacyProduct=[
   },
 
 ]
+
+

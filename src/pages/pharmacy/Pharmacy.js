@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { PharmacyBanner } from "../../Data";
+import { PharmacyBanner} from "../../Data";
 import PopularCategory from "../../components/PopularCategory";
 import {PharmacyProduct} from "../../Data";
 import { ShoppingBag} from 'react-feather';

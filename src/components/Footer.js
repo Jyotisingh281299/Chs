@@ -69,11 +69,11 @@ export default function Footer()
                                 <div className="footer-contact-info">
                                     <div className="footer-address">
                                         <span><i className="fas fa-map-marker-alt"></i></span>
-                                        <p> Gomti Nagar, Lucknow </p>
+                                        <p> 65, Gaytri puram, Kursi Road, Lucknow- 226022 </p>
                                     </div>
                                     <p>
                                         <i className="fas fa-phone-alt"></i>
-                                        +91 987653210
+                                        +91 7060977139
                                     </p>
                                     <p className="mb-0">
                                         <i className="fas fa-envelope"></i>
