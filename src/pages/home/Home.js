@@ -9,6 +9,7 @@ import HowItWorks from '../../components/HowItWorks';
 import FeatureCarousel from '../../components/FeatureCarousel';
 import BrowseCategory from '../../components/BrowseCategory';
 import PopularCategory from '../../components/PopularCategory';
+import Contact from '../contact/Contact';
 
 export default function Home()
 {
@@ -17,12 +18,17 @@ export default function Home()
             <Header/>
             <Banner/>
             <Category/>
+          
             <About/>
+           
             <BrowseCategory/>
+            <Contact />
             <PopularCategory/>
             <FeatureCarousel/>
             <Team/>
+            
             <HowItWorks/>
+
             <Footer/>
         </>
     );
