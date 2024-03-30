@@ -39,8 +39,30 @@ import popularcat_img10 from '../src/assets/img/categorie-12.png';
 import pharmacy_banner1 from '../src/assets/img/product-16.png';
 import pharmacy_banner2 from '../src/assets/img/product-17.png';
 import pharmacy_banner3 from '../src/assets/img/product-18.png';
+import dobanner1 from '../src/assets/img/banner_1.jpeg';
+import dobanner2 from '../src/assets/img/banner_2.jpeg';
+import dobanner3 from '../src/assets/img/banner_3.jpeg';
 
 
+// Sample data for doctors
+export const DoBanner = [
+  {
+    id: 1,
+    name: 'Medical',
+    do_img:dobanner1,
+  },
+  {
+    id: 2,
+    name: 'Patient Ward',
+    do_img:dobanner2,
+    },
+    {
+      id: 3,
+      name: 'Test Rom',
+      do_img:dobanner3,
+    },
+  // Add more doctor data as needed
+];
 
 
 export const Navbar = [
