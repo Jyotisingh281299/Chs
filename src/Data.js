@@ -39,30 +39,11 @@ import popularcat_img10 from '../src/assets/img/categorie-12.png';
 import pharmacy_banner1 from '../src/assets/img/product-16.png';
 import pharmacy_banner2 from '../src/assets/img/product-17.png';
 import pharmacy_banner3 from '../src/assets/img/product-18.png';
-import dobanner1 from '../src/assets/img/banner_1.jpeg';
-import dobanner2 from '../src/assets/img/banner_2.jpeg';
-import dobanner3 from '../src/assets/img/banner_3.jpeg';
-
-
-// Sample data for doctors
-export const DoBanner = [
-  {
-    id: 1,
-    name: 'Medical',
-    do_img:dobanner1,
-  },
-  {
-    id: 2,
-    name: 'Patient Ward',
-    do_img:dobanner2,
-    },
-    {
-      id: 3,
-      name: 'Test Rom',
-      do_img:dobanner3,
-    },
-  // Add more doctor data as needed
-];
+import service_desc_img1 from '../src/assets/img/virtual_call1.png';
+import service_desc_img2 from '../src/assets/img/appointment1.png';
+import service_desc_img3 from '../src/assets/img/prescription1.png';
+import service_desc_img5 from '../src/assets/img/medical_bag1.png';
+import service_desc_img6 from '../src/assets/img/diagonstic1.png';
 
 
 export const Navbar = [
@@ -106,7 +87,7 @@ export const cardData = [
       imageSrc: cat_1,
       alt: "doctor-image",
       title: "Visit a Doctor",
-      link: "search.html",
+      link: "#",
       buttonText: "Book Now",
     },
     {
@@ -114,7 +95,7 @@ export const cardData = [
       imageSrc: cat_2,
       alt: "pharmacy-image",
       title: "Find a Pharmacy",
-      link: "pharmacy-search.html",
+      link: "#",
       buttonText: "Find Now",
     },
     {
@@ -508,3 +489,43 @@ export const PharmacyProduct=[
 ]
 
 
+// Service Description Home Page
+
+export const ServiceDescriptionData=[
+  {
+    id:1,
+    service_desc_img1:service_desc_img1,
+    service_heading:'Virtual Consultations',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+  {
+    id:2,
+    service_desc_img1:service_desc_img2,
+    service_heading:'Appointment Scheduling',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+  {
+    id:3,
+    service_desc_img1:service_desc_img3,
+    service_heading:'Prescription Refills',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+  {
+    id:4,
+    service_desc_img1:service_desc_img1,
+    service_heading:'Lab Test Results',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+  {
+    id:5,
+    service_desc_img1:service_desc_img5,
+    service_heading:'Pharmacy Services',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+  {
+    id:6,
+    service_desc_img1:service_desc_img6,
+    service_heading:'Diagnostics Services',
+    service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+  },
+]
