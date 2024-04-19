@@ -10,25 +10,23 @@ import FeatureCarousel from '../../components/FeatureCarousel';
 import BrowseCategory from '../../components/BrowseCategory';
 import PopularCategory from '../../components/PopularCategory';
 import Contact from '../contact/Contact';
-import DocBanner from '../../components/DocBanner';
+import ServiceBanner from '../../components/ServiceBanner';
+
+
 export default function Home()
 {
     return(
         <>
             <Header/>
             <Banner/>
-            
+            <ServiceBanner/>
             <Category/>
-            <DocBanner/>
             <About/>
-           
             <BrowseCategory/>
             <Contact />
             <PopularCategory/>
             <FeatureCarousel/>
-           
             <Team/>
-           
             <HowItWorks/>
 
             <Footer/>
