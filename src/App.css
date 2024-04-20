@@ -8493,14 +8493,14 @@ html.menu-opened body {
 }
 @media (max-width: 767.98px) {
   .section-search {
-    background: #fff !important;
+    /* background: #fff !important; */
     padding: 100px 0 50px 0;
   }
 }
 @media (max-width: 479.98px) {
   .section-search {
     min-height: 410px;
-    padding: 80px 15px 30px 15px;
+    padding: 95px 15px 30px 15px;
   }
 }
 .section-search .banner-wrapper {
@@ -8536,6 +8536,18 @@ html.menu-opened body {
   .section-search .banner-wrapper .banner-header h1 {
     font-size: 23px;
   }
+  .carousel
+  {
+    width: 190px !important;
+  }
+  .carousel .panel
+  {
+    height: 230px !important;
+  }
+  .service_section
+{
+  padding: 45px 0 !important;
+}
 }
 .section-search .banner-wrapper .banner-header p {
   color: #757575;
