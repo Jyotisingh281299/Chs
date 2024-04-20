@@ -2,6 +2,7 @@ import React from "react";
 import ChsLogo from '../assets/img/chs_logo.png';
 import getCompanyName from "./CompanyName";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function Footer()
 {
@@ -20,19 +21,19 @@ export default function Footer()
                                     <div className="social-icon">
                                         <ul>
                                             <li>
-                                                <a href="javascript:void(0);"><i className="fab fa-facebook-f"></i> </a>
+                                                <Link to="javascript:void(0);"><i className="fab fa-facebook-f"></i> </Link>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i className="fab fa-twitter"></i> </a>
+                                            <Link to="javascript:void(0);"><i className="fab fa-twitter"></i> </Link>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i className="fab fa-linkedin-in"></i></a>
+                                            <Link to="javascript:void(0);"><i className="fab fa-linkedin-in"></i></Link>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i className="fab fa-instagram"></i></a>
+                                            <Link to="javascript:void(0);"><i className="fab fa-instagram"></i></Link>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i className="fab fa-dribbble"></i> </a>
+                                            <Link to="javascript:void(0);"><i className="fab fa-dribbble"></i> </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -43,11 +44,11 @@ export default function Footer()
                             <div className="footer-widget footer-menu">
                                 <h2 className="footer-title">About Us</h2>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Register</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Patient Dashboard</a></li>
+                                    <li><Link to="javascript:void(0);">Home</Link></li>
+                                    <li><Link to="javascript:void(0);">About Us</Link></li>
+                                    <li><Link to="javascript:void(0);">Register</Link></li>
+                                    <li><Link to="javascript:void(0);">Contact Us</Link></li>
+                                    <li><Link to="javascript:void(0);">Patient Dashboard</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -55,11 +56,11 @@ export default function Footer()
                             <div className="footer-widget footer-menu">
                                 <h2 className="footer-title">For Doctors</h2>
                                 <ul>
-                                    <li><a href="#">Appointments</a></li>
-                                    <li><a href="#">Chat</a></li>
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Register</a></li>
-                                    <li><a href="#">Doctor Dashboard</a></li>
+                                    <li><Link to="javascript:void(0);">Appointments</Link></li>
+                                    <li><Link to="javascript:void(0);">Chat</Link></li>
+                                    <li><Link to="javascript:void(0);">Login</Link></li>
+                                    <li><Link to="javascript:void(0);">Register</Link></li>
+                                    <li><Link to="javascript:void(0);">Doctor Dashboard</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -94,15 +95,15 @@ export default function Footer()
                             <Col sm='8' md='8'>
                                 <div className="copyright-text">
                                     <p className="mb-0">© 2024 {companyName}. All rights reserved.
-                                     Designed by <a href="https://softtrixsoftware.com/" target="_blank" className="text-white">Softtrix Software Pvt. Ltd.</a>
+                                     Designed by <Link to="https://softtrixsoftware.com/" target="_blank" className="text-white">Softtrix Software Pvt. Ltd.</Link>
                                     </p>
                                 </div>
                             </Col>
                             <Col sm='4' md='4'>
                                 <div className="copyright-menu">
                                     <ul className="policy-menu">
-                                        <li><a href="#">Terms and Conditions</a></li>
-                                        <li><a href="#">Policy</a></li>
+                                        <li><Link to="#">Terms and Conditions</Link></li>
+                                        <li><Link to="#">Policy</Link></li>
                                     </ul>
                                 </div>
                             </Col>

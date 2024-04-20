@@ -4,6 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { featuresData } from '../../src/Data';
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function FeatureCarousel() {
     const responsiveFeatures = {
@@ -40,7 +41,7 @@ export default function FeatureCarousel() {
                                                 <img src={feature.feature_img} alt={feature.name} className="img-fluid" />
                                             </div>
                                             <div className="clinic-feature-overlay">
-                                                <a href="#" className="img-overlay">{feature.name}</a>
+                                                <Link to="#" className="img-overlay">{feature.name}</Link>
                                             </div>
                                         </div>
                                     </div>

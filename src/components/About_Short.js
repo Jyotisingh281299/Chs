@@ -1,15 +1,9 @@
 import React from "react";
-import { aboutData } from "../../Data";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Breadcrumb from "../../components/Breadcrumb";
+import { aboutData } from "../Data";
 
-function About() {
+function About_Short() {
   const { images, experienceHeader, mainHeader, content, emergencyNumber } = aboutData;
   return (
-    <>
-     <Header/>
-     <Breadcrumb/>
     <section className="about-section">
       <div className="container">
         <div className="row align-items-center">
@@ -62,9 +56,7 @@ function About() {
         </div>
       </div>
     </section>
-    <Footer/>
-    </>
   );
 };
 
-export default About;
+export default About_Short;

@@ -1,6 +1,7 @@
 import React from "react";
 import {cardData} from "../Data";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 
@@ -32,13 +33,13 @@ const Category = () => {
                     <div className="doctor-book-card-content tile-card-content-1">
                       <div>
                         <h3 className="card-title mb-0">{card.title}</h3>
-                        <a
-                          href={card.link}
+                        <Link
+                          to={card.link}
                           className="btn book-btn1 px-3 py-2 mt-3"
                           tabIndex="0"
                         >
                           {card.buttonText}
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

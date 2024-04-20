@@ -33,10 +33,10 @@ function Header() {
               </Link>
             </div>
             <ul className="main-nav">
-              {Navbar.map(({ menu_name, path }, item)=>
+              {Navbar.map(({ menu_name, path }, nav_item)=>
               (
                 <>
-              <li className={location.pathname === path ? 'active' : ''} key={item}>
+              <li className={location.pathname === path ? 'active' : ''} key={nav_item}>
                 <Link to={path}>{menu_name}</Link>
               </li>
               </>

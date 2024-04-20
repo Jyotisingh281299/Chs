@@ -3,14 +3,13 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Banner from '../../components/Banner';
 import Category from '../../components/Category';
-import About from '../about/About';
 import Team  from '../../components/Team';
 import HowItWorks from '../../components/HowItWorks';
 import FeatureCarousel from '../../components/FeatureCarousel';
 import BrowseCategory from '../../components/BrowseCategory';
 import PopularCategory from '../../components/PopularCategory';
-import Contact from '../contact/Contact';
 import ServiceBanner from '../../components/ServiceBanner';
+import About_Short from "../../components/About_Short";
 
 
 export default function Home()
@@ -21,9 +20,9 @@ export default function Home()
             <Banner/>
             <ServiceBanner/>
             <Category/>
-            <About/>
+          <About_Short/>
             <BrowseCategory/>
-            <Contact />
+           
             <PopularCategory/>
             <FeatureCarousel/>
             <Team/>

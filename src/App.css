@@ -2108,6 +2108,7 @@ a.bg-danger:focus, a.bg-danger:hover, button.bg-danger:focus, button.bg-danger:h
 .avatar {
   position: relative;
   display: inline-block;
+  border-radius: 50%;
   width: 3rem;
   height: 3rem;
 }
@@ -12655,6 +12656,48 @@ html.menu-opened body {
   margin-right: auto;
   text-align: left;
 }
+
+.dashboard-card {
+  border: 1px solid #e2e8f0;
+  padding: 24px;
+  box-shadow: 0 7.5px 17.5px 0 #0000000d;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.dashboard-card .dashboard-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+.health-records {
+  margin-bottom: 35px;
+}
+.health-records h3 {
+  display: flex;
+  align-items: center;
+}
+.health-records.icon-orange h3 sup {
+  color: #1ca345;
+}
+.health-records h3 sup {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.profile-sidebar .dashboard-menu > ul > li.active {
+ background: #0d6efd;
+}
+.profile-sidebar .dashboard-menu > ul > li.active a {
+  color: #fff;
+ }
+
 @media (max-width: 479.98px) {
   .appointment-list .profile-info-widget {
     text-align: center;
@@ -13323,6 +13366,8 @@ call-btn:hover, call-btn:focus {
   background-color: #ffffff;
   border: 1px solid #f0f0f0;
   margin-bottom: 30px;
+  box-shadow: 0 10px 40px 10px #00000014;
+  border-radius: 10px;
   overflow: hidden;
   border-radius: 4px;
 }
@@ -13389,7 +13434,7 @@ call-btn:hover, call-btn:focus {
   color: #0de0fe;
 }
 .profile-sidebar .dashboard-menu > ul > li.active > a {
-  color: #0de0fe;
+  color: #fff;
 }
 
 @media (max-width: 1199.98px) {
@@ -30637,7 +30682,7 @@ ul.benifits-col li i {
 }
 
 .breadcrumb-bar-two {
-  background: #F2F6F6;
+  background:#1e569e;
   background-repeat: no-repeat;
   padding-top: 70px;
   min-height: 300px;
@@ -30689,7 +30734,7 @@ ul.benifits-col li i {
 }
 .breadcrumb-bar-two .page-breadcrumb ol li a {
   font-weight: 500;
-  color: #4B5563;
+  color: #fff;
 }
 .breadcrumb-bar-two .page-breadcrumb ol li.active {
   color: #1F2937;
@@ -37871,3 +37916,9 @@ span[aria-label='Previous'], span[aria-label='Next']
 {
   box-shadow: inset 5px 5px 10px #99b2dd, inset -5px -5px 10px #99b2dd;
 }
+
+
+
+
+/*  patient dashboard css */
+
