@@ -58,7 +58,7 @@ export default function Pharmacy() {
                             </Col>
                             <Col md='6'>
                                 <div className="pharmacy-title-link">
-                                    <a href="#">See All <i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#">See All <i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                            </Col>
                         </Row>
@@ -69,20 +69,20 @@ export default function Pharmacy() {
                         <Col lg='3' md='4' key={index}>
                             <div className="products-card">
                                 <div className="product-card-img">
-                                    <a href="#"><img src={item.img} alt={item.product_name}/></a>
+                                <Link to="#"><img src={item.img} alt={item.product_name}/></Link>
                                 </div>
                                 <div className="product-content">
                                     <h6>{item.product_cat}</h6>
-                                    <h4><a href="#">{item.product_name}</a></h4>
+                                    <h4><Link to="#">{item.product_name}</Link></h4>
                                     <span className="badge">{item.quantity}</span>
                                     <div className="product-cart">
                                         <div className="cart-price">
                                             <h5>{item.price}<span>{item.discount_price}</span></h5>
                                         </div>
-                                        <a href="#" className="cart-icon">
+                                        <Link to="#" className="cart-icon">
                                         <ShoppingBag />
                                             {/* <i className="feather-shopping-bag"></i> */}
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

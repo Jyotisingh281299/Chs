@@ -13,7 +13,7 @@ const Banner = () => {
       <Container fluid>
         <div className="banner-wrapper">
         <div className="banner-header text-center text-white aos aos-init aos-animate" data-aos="fade-up">
-            <h1>Search Doctor, Make an Appointment</h1>
+            <h1 className='text-white'>Search Doctor, Make an Appointment</h1>
             <p className='text-white'>Discover the best doctors, clinic &amp; hospital the city nearest to you.</p>
             </div>
             <div className="search-box">

@@ -55,27 +55,32 @@ export const Navbar = [
   {
     id: 2,
     menu_name: 'Doctors',
-    path: '/doctors', // Update with correct path
+    path: '', // Update with correct path
   },
   {
     id: 3,
     menu_name: 'Patients',
-    path: '/patients', // Update with correct path
+    path: '/patient', // Update with correct path
   },
   {
     id: 4,
     menu_name: 'Pharmacy',
-    path: '/pharmacy', // Update with correct path
+    path: '', // Update with correct path
   },
   {
     id: 5,
     menu_name: 'Blog',
-    path: '/blog', // Update with correct path
+    path: '', // Update with correct path
   },
   {
     id: 6,
     menu_name: 'Contact Us',
     path: '/contact', // Update with correct path
+  },
+  {
+    id: 6,
+    menu_name: 'About Us',
+    path: '/about', // Update with correct path
   },
 ];
 
@@ -87,7 +92,7 @@ export const cardData = [
       imageSrc: cat_1,
       alt: "doctor-image",
       title: "Visit a Doctor",
-      link: "#",
+      link: "/",
       buttonText: "Book Now",
     },
     {
@@ -95,7 +100,7 @@ export const cardData = [
       imageSrc: cat_2,
       alt: "pharmacy-image",
       title: "Find a Pharmacy",
-      link: "#",
+      link: "/",
       buttonText: "Find Now",
     },
     {

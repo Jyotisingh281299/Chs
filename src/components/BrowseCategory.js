@@ -4,6 +4,7 @@ import { Button, Row, Col, Container } from "react-bootstrap";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from "react-router-dom";
 
 export default function BrowseCategory(){
    const heading='Browse by Category';
@@ -22,7 +23,7 @@ export default function BrowseCategory(){
                         </Col>
                         <Col md='6'>
                             <div class="pharmacy-title-link">
-                                <a href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+                                <Link to="#">View All <i class="fa-solid fa-arrow-right"></i></ Link>
                             </div>
                         </Col>
                     </Row>
@@ -38,7 +39,7 @@ export default function BrowseCategory(){
                             <img src={BrowseCategory.img} alt={BrowseCategory.name}/>
                         </div>
                         <div class="deals-content">
-                            <a href="#">{BrowseCategory.name}</a>
+                            <Link to="#">{BrowseCategory.name}</Link>
                         </div>
                     </div>
                 </li>

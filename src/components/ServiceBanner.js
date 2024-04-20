@@ -5,7 +5,7 @@ import Serviceimg_3 from '../assets/img/lab_test.png';
 import Serviceimg_4 from '../assets/img/medical_bag.png';
 import Serviceimg_5 from '../assets/img/education.png';
 import Serviceimg_6 from '../assets/img/prescription.png';
-import service_details_img1 from '../assets/img/virtual_call1.png';
+import { Link } from 'react-router-dom';
 import {ServiceDescriptionData} from '../Data';
 
 
@@ -73,7 +73,7 @@ export default function ServiceBanner() {
                        <h5>{item.service_heading}</h5>
                        <p>{item.service_desc}</p>
                        <div class="view-all-more text-center">
-                        <a type="button" class="btn btn-primary btn btn-primary">View More</a>
+                        <Link to="/About" class="btn btn-primary btn btn-primary">View More</Link>
                         </div>
                       </div>
 
