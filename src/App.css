@@ -8,7 +8,13 @@
   --bg-primary:#379339;
   ----border-secondary:#1c5b90;
 }
-
+@media(max-width:768px)
+{
+html
+{
+  overflow-x: hidden;
+}
+}
 .App {
   text-align: center;
 }
@@ -3616,7 +3622,7 @@ th.table-head-days {
   }
 }
 .header .header-nav .main-nav > li.active > a {
-  color: #09dca4;
+  color: #379339;
 }
 .header .header-nav .main-nav > li .submenu li {
   position: relative;
@@ -37922,3 +37928,8 @@ span[aria-label='Previous'], span[aria-label='Next']
 
 /*  patient dashboard css */
 
+
+.owl-carousel .owl-nav.disabled
+{
+  display: block;
+}

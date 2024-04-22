@@ -1,6 +1,8 @@
 import cat_1 from '../src/assets/img/doctor-07.jpg';
 import cat_2 from '../src/assets/img/img-pharmacy1.jpg';
-import cat_3 from '../src/assets/img/lab-image.jpg';
+import cat_3 from '../src/assets/img/hospital.png';
+import video_call from '../src/assets/img/video_call.png';
+import lab_test from '../src/assets/img/lab_test.jpg';
 import doctor_1 from '../src/assets/img/doctor-01.jpg';
 import doctor_2 from '../src/assets/img/doctor-02.jpg';
 import doctor_3 from '../src/assets/img/doctor-03.jpg';
@@ -56,11 +58,29 @@ export const Navbar = [
     id: 2,
     menu_name: 'Doctors',
     path: '', // Update with correct path
+  
   },
   {
     id: 3,
     menu_name: 'Patients',
     path: '/patient', // Update with correct path
+    submenu:[
+      {
+        id:1,
+        menu_name:'Patient Dashboard',
+        path:'/patient',
+      },
+      {
+        id:2,
+        menu_name:'Search Doctor',
+        path:'/doctorlist',
+      },
+      {
+        id:3,
+        menu_name:'Doctor Profile',
+        path:'',
+      },
+    ]
   },
   {
     id: 4,
@@ -68,13 +88,8 @@ export const Navbar = [
     path: '', // Update with correct path
   },
   {
-    id: 5,
-    menu_name: 'Blog',
-    path: '', // Update with correct path
-  },
-  {
-    id: 6,
-    menu_name: 'Contact Us',
+    id: 7,
+    menu_name: 'Services',
     path: '/contact', // Update with correct path
   },
   {
@@ -82,6 +97,19 @@ export const Navbar = [
     menu_name: 'About Us',
     path: '/about', // Update with correct path
   },
+  {
+    id: 7,
+    menu_name: 'Contact Us',
+    path: '/contact', // Update with correct path
+  },
+  {
+    id: 5,
+    menu_name: 'Blog',
+    path: '', // Update with correct path
+  },
+  
+ 
+ 
 ];
 
 
@@ -105,9 +133,25 @@ export const cardData = [
     },
     {
       id: 3,
+      imageSrc: video_call,
+      alt: "video-call",
+      title: "Video Consultation",
+      link: "javascript:void(0);",
+      buttonText: "Call Now",
+    },
+    {
+      id: 4,
       imageSrc: cat_3,
       alt: "lab-image",
       title: "Find a Hospital",
+      link: "javascript:void(0);",
+      buttonText: "Coming Soon",
+    },
+    {
+      id: 5,
+      imageSrc: lab_test,
+      alt: "lab-image",
+      title: "Lab Test",
       link: "javascript:void(0);",
       buttonText: "Coming Soon",
     },

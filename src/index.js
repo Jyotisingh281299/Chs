@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import PatientDashboard from './pages/patient/Patient';
+import DoctorList from './pages/doctorList/DoctorList';
+import DoctorProfile from './pages/doctorProfile/DoctorProfile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +20,8 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/patient" element={<PatientDashboard />} />
+        <Route path="/DoctorList" element={<DoctorList />} />
+        <Route path="/DoctorProfile" element={<DoctorProfile />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

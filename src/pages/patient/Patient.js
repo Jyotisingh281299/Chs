@@ -432,137 +432,14 @@ function PatientDashboard() {
                                                                                     <td>24 Mar 2024, 10:30 AM</td>
                                                                                     <td>
                                                                                         <h2 class="table-avatar">
-                                                                                            <a href="doctor-profile.html" class="avatar avatar-sm me-2">
-                                                                                                <img class="avatar-img rounded-3" src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image"/>
+                                                                                            <a href="#" class="avatar avatar-sm me-2">
+                                                                                                <img class="avatar-img rounded-3" src={user_img} alt="User Image"/>
                                                                                             </a>
-                                                                                            <a href="doctor-profile.html">Edalin Hendry</a>
+                                                                                            <a href="#">Edalin Hendry</a>
                                                                                         </h2>
                                                                                     </td>
                                                                                     <td>
                                                                                         <div class="action-item">
-                                                                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#view_prescription">
-                                                                                                <i class="fa-solid fa-link"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#" data-bs-toggle="modal" data-bs-target="#view_prescription">#PR-124</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon prescription">
-                                                                                            <span><i class="fa-solid fa-prescription"></i></span>Prescription
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>27 Mar 2024, 11:15 AM</td>
-                                                                                    <td>
-                                                                                        <h2 class="table-avatar">
-                                                                                            <a href="doctor-profile.html" class="avatar avatar-sm me-2">
-                                                                                                <img class="avatar-img rounded-3" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image"/>
-                                                                                            </a>
-                                                                                            <a href="doctor-profile.html">John Homes</a>
-                                                                                        </h2>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#view_prescription">
-                                                                                                <i class="fa-solid fa-link"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#" data-bs-toggle="modal" data-bs-target="#view_prescription">#PR-125</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon prescription">
-                                                                                            <span><i class="fa-solid fa-prescription"></i></span>Prescription
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>11 Apr 2024, 09:00 AM</td>
-                                                                                    <td>
-                                                                                        <h2 class="table-avatar">
-                                                                                            <a href="doctor-profile.html" class="avatar avatar-sm me-2">
-                                                                                                <img class="avatar-img rounded-3" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image"/>
-                                                                                            </a>
-                                                                                            <a href="doctor-profile.html">Shanta Neill</a>
-                                                                                        </h2>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#view_prescription">
-                                                                                                <i class="fa-solid fa-link"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#" data-bs-toggle="modal" data-bs-target="#view_prescription">#PR-126</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon prescription">
-                                                                                            <span><i class="fa-solid fa-prescription"></i></span>Prescription
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>15 Apr 2024, 02:30 PM</td>
-                                                                                    <td>
-                                                                                        <h2 class="table-avatar">
-                                                                                            <a href="doctor-profile.html" class="avatar avatar-sm me-2">
-                                                                                                <img class="avatar-img rounded-3" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image"/>
-                                                                                            </a>
-                                                                                            <a href="doctor-profile.html">Anthony Tran</a>
-                                                                                        </h2>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#view_prescription">
-                                                                                                <i class="fa-solid fa-link"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#" data-bs-toggle="modal" data-bs-target="#view_prescription">#PR-127</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon prescription">
-                                                                                            <span><i class="fa-solid fa-prescription"></i></span>Prescription
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>23 Apr 2024, 06:40 PM</td>
-                                                                                    <td>
-                                                                                        <h2 class="table-avatar">
-                                                                                            <a href="doctor-profile.html" class="avatar avatar-sm me-2">
-                                                                                                <img class="avatar-img rounded-3" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image"/>
-                                                                                            </a>
-                                                                                            <a href="doctor-profile.html">Susan Lingo</a>
-                                                                                        </h2>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#view_prescription">
-                                                                                                <i class="fa-solid fa-link"></i>
-                                                                                            </a>
                                                                                             <a href="javascript:void(0);">
                                                                                                 <i class="fa-solid fa-download"></i>
                                                                                             </a>
@@ -625,12 +502,12 @@ function PatientDashboard() {
                                                     <ul>
                                                         <li>
                                                             <div class="patinet-information">
-                                                                <a href="patient-upcoming-appointment.html">
+                                                                <a href="#">
                                                                     <img src={user_img} alt="User Image" />
                                                                 </a>
                                                                 <div class="patient-info">
                                                                     <p>#Apt0001</p>
-                                                                    <h6><a href="patient-upcoming-appointment.html">Dr Edalin</a></h6>
+                                                                    <h6><a href="#">Dr Edalin</a></h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -650,7 +527,7 @@ function PatientDashboard() {
                                                         <li class="appointment-action">
                                                             <ul>
                                                                 <li>
-                                                                    <a href="patient-upcoming-appointment.html"><i class="fa-solid fa-eye"></i></a>
+                                                                    <a href="#"><i class="fa-solid fa-eye"></i></a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="#"><i class="fa-solid fa-comments"></i></a>
@@ -672,12 +549,12 @@ function PatientDashboard() {
                                                     <ul>
                                                         <li>
                                                             <div class="patinet-information">
-                                                                <a href="patient-cancelled-appointment.html">
-                                                                    <img src="assets/img/doctors/doctor-thumb-21.jpg" alt="User Image" />
+                                                                <a href="#">
+                                                                    <img src={user_img} alt="User Image" />
                                                                 </a>
                                                                 <div class="patient-info">
                                                                     <p>#Apt00011</p>
-                                                                    <h6><a href="patient-cancelled-appointment.html">Dr Edalin</a></h6>
+                                                                    <h6><a href="#">Dr Edalin</a></h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -689,7 +566,7 @@ function PatientDashboard() {
                                                             </ul>
                                                         </li>
                                                         <li class="appointment-detail-btn">
-                                                            <a href="patient-cancelled-appointment.html" class="start-link">View Details<i class="fa-regular fa-circle-right ms-1"></i></a>
+                                                            <a href="#" class="start-link">View Details<i class="fa-regular fa-circle-right ms-1"></i></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -701,12 +578,12 @@ function PatientDashboard() {
                                                     <ul>
                                                         <li>
                                                             <div class="patinet-information">
-                                                                <a href="patient-completed-appointment.html">
-                                                                    <img src="assets/img/doctors/doctor-thumb-21.jpg" alt="User Image" />
+                                                                <a href="#">
+                                                                    <img src={user_img} alt="User Image" />
                                                                 </a>
                                                                 <div class="patient-info">
                                                                     <p>#Apt0001</p>
-                                                                    <h6><a href="patient-completed-appointment.html">Dr Edalin</a></h6>
+                                                                    <h6><a href="#">Dr Edalin</a></h6>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -718,12 +595,10 @@ function PatientDashboard() {
                                                             </ul>
                                                         </li>
                                                         <li class="appointment-detail-btn">
-                                                            <a href="patient-completed-appointment.html" class="start-link">View Details<i class="fa-regular fa-circle-right ms-1"></i></a>
+                                                            <a href="#" class="start-link">View Details<i class="fa-regular fa-circle-right ms-1"></i></a>
                                                         </li>
                                                     </ul>
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     </Tab.Pane>
