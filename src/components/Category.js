@@ -2,10 +2,27 @@ import React from "react";
 import {cardData} from "../Data";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 const Category = () => {
+  const responsiveFeatures = {
+    0: {
+        items: 2,
+        nav:true
+    },
+    600: {
+        items: 3,
+        nav:true
+    },
+    1000: {
+        items: 3,
+        nav:true,
+    },
+
+};
   return (
     <section className="section home-tile-section">
       <Container fluid>
@@ -18,10 +35,12 @@ const Category = () => {
               <h2>What are you looking for?</h2>
             </div>
             <Row>
+              <Col xl='12' lg='12' md='12'>
+            <OwlCarousel className='owl-theme' loop margin={10} dots={false} nav={true} responsive={responsiveFeatures}>
               {cardData.map((card) => (
                 <div
                   key={card.id}
-                  className="col-lg-4 mb-3 aos aos-init aos-animate"
+                  className="mb-3 aos aos-init aos-animate"
                   data-aos="fade-up"
                 >
                   <div className="card text-center doctor-book-card">
@@ -45,6 +64,8 @@ const Category = () => {
                   </div>
                 </div>
               ))}
+              </OwlCarousel>
+              </Col>
             </Row>
           </Col>
         </Row>

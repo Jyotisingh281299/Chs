@@ -29,36 +29,6 @@ const Banner = () => {
             <button type="submit" className="btn btn-primary search-btn mt-0 aos aos-init aos-animate" data-aos="fade-up"><i className="fas fa-search"></i> <span>Search</span></button>
             </form>
             </div>
-          {/* ... existing code ... */}
-          {/* <form onSubmit={handleSubmit}>
-            <div className="mb-3 search-location aos aos-init aos-animate" data-aos="fade-up">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search Location"
-                value={location}
-                onChange={(e) => setLocation(e.target.value)}
-              />
-              <span className="form-text">Based on your Location</span>
-            </div>
-            <div className="mb-3 search-info aos aos-init aos-animate" data-aos="fade-up">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search Doctors, Clinics, Hospitals, Diseases Etc"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
-              <span className="form-text">Ex : Dental or Sugar Check up etc</span>
-            </div>
-            <button
-              type="submit"
-              className="btn btn-primary search-btn mt-0 aos aos-init aos-animate"
-              data-aos="fade-up"
-            >
-              <i className="fas fa-search"></i> <span>Search</span>
-            </button>
-          </form> */}
         </div>
       </Container>
     </section>

@@ -39,9 +39,8 @@ export default function ServiceBanner() {
         <section className="clinic-features-section">
             <div className="container">
                 <div className="service_section pt-0">
-                  
                     <div className="carousel">
-                        <div id="panel-1" className="panel" style={serviceBanner1}>
+                         <div id="panel-1" className="panel" style={serviceBanner1}>
                         </div>
                         <div id="panel-2" className="panel" style={serviceBanner2}></div>
                         <div id="panel-3" className="panel" style={serviceBanner3}></div>
