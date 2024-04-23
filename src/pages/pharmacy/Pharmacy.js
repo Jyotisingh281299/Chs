@@ -8,7 +8,6 @@ import { ShoppingBag} from 'react-feather';
 import Breadcrumb from "../../components/Breadcrumb";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-// import {RupeeSign} from 'react-feather';
 
 
 export default function Pharmacy() {
@@ -81,7 +80,6 @@ export default function Pharmacy() {
                                         </div>
                                         <Link to="#" className="cart-icon">
                                         <ShoppingBag />
-                                            {/* <i className="feather-shopping-bag"></i> */}
                                         </Link>
                                     </div>
                                 </div>

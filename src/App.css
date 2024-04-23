@@ -8486,12 +8486,11 @@ html.menu-opened body {
 
 /****** PAGES ******/
 .section-search {
-  /* background: #f9f9f9 url(../img/search-bg.png) no-repeat bottom center; */
+  background: rgb(0, 0, 0, 0.5) url(./assets/img/bg.png) no-repeat bottom center;
   /* min-height: 530px; */
   background-size: 100% auto;
   position: relative;
-  background-blend-mode: Darken;
-  padding: 130px 0 55px 0;
+  padding: 175px 0 55px 0;
 }
 @media (max-width: 991.98px) {
   .section-search {
@@ -37825,14 +37824,14 @@ span[aria-label='Previous'], span[aria-label='Next']
 .service_section {
 
   perspective: 1500px;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .carousel {
   position: relative;
   height: 200px;
   margin: 0 auto;
-  width: 240px;
+  width: 270px;
   transform-style: preserve-3d;
  transform: translateZ(-500px);
   animation: turn 16s linear infinite;
@@ -37843,7 +37842,7 @@ span[aria-label='Previous'], span[aria-label='Next']
 }
 .carousel .panel {
   position: absolute;
-  height: 290px;
+  height: 240px;
   width: 100%;
   border-radius: 30px;
   text-align: center;
@@ -37864,7 +37863,6 @@ span[aria-label='Previous'], span[aria-label='Next']
   text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white, 5px 5px white, 6px 6px white;
 }
 #panel-1 {
-
   transform: rotateY(0deg) translateZ(400px);
   background-image: -webkit-linear-gradient(top left, #f9dec9, #f9dec9);
   box-shadow: inset 5px 5px 10px #f9dec9, inset -5px -5px 10px #f9dec9;
@@ -37911,16 +37909,16 @@ span[aria-label='Previous'], span[aria-label='Next']
 }
 @keyframes turn {
   0% {
-    transform: translateZ(-300px) rotateY(360deg);
+    transform: translateZ(-50px) rotateY(360deg);
  }
   100% {
-    transform: translateZ(-300px) rotateY(0deg);
+    transform: translateZ(-50px) rotateY(0deg);
  }
 }
 
 .card-header, .card-body
 {
-  box-shadow: inset 5px 5px 10px #99b2dd, inset -5px -5px 10px #99b2dd;
+  /* box-shadow: inset 5px 5px 10px #99b2dd, inset -5px -5px 10px #99b2dd; */
 }
 
 

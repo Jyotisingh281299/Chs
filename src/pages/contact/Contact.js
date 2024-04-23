@@ -4,6 +4,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import Footer from '../../components/Footer';
 import { Mail, MapPin, PhoneCall } from 'react-feather';
 import {email_address, phone_no, address} from '../../components/CompanyName';
+import { Container, Row, Col } from 'react-bootstrap';
 const Contact = () => {
 
     return (
@@ -11,9 +12,9 @@ const Contact = () => {
         <Header/>
         <Breadcrumb/>
         <section className="contact-section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-5 col-md-12">
+            <Container>
+                <Row>
+                    <Col lg='5' md='12'>
                         <div className="section-inner-header contact-inner-header">
                             <h6>Get in touch</h6>
                             <h2>Have Any Question?</h2>
@@ -51,54 +52,54 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-7 col-md-12 d-flex">
+                    </Col>
+                    <Col lg='7' md='12' className="d-flex">
                         <div className="card contact-form-card w-100">
                             <div className="card-body">
-                                <form action="#">
-                                    <div className="row">
-                                        <div className="col-md-6">
+                                <form>
+                                    <Row>
+                                        <Col md='6'>
                                             <div className="mb-3">
                                                 <label className="mb-2">Name</label>
                                                 <input type="text" className="form-control" placeholder="Enter Your Name"/>
                                             </div>
-                                        </div>
-                                        <div className="col-md-6">
+                                        </Col>
+                                        <Col md='6'>
                                             <div className="mb-3">
                                                 <label className="mb-2">Email Address</label>
                                                 <input type="text" className="form-control" placeholder="Enter Email Address"/>
                                             </div>
-                                        </div>
-                                        <div className="col-md-6">
+                                        </Col>
+                                        <Col md='6'>
                                             <div className="mb-3">
                                                 <label className="mb-2">Phone Number</label>
                                                 <input type="text" className="form-control" placeholder="Enter Phone Number"/>
                                             </div>
-                                        </div>
-                                        <div className="col-md-6">
+                                        </Col>
+                                        <Col md='6'>
                                             <div className="mb-3">
                                                 <label className="mb-2">Services</label>
                                                 <input type="text" className="form-control" placeholder="Enter Services"/>
                                             </div>
-                                        </div>
-                                        <div className="col-md-12">
+                                        </Col>
+                                        <Col md='12'>
                                             <div className="mb-3">
                                                 <label className="mb-2">Message</label>
                                                 <textarea className="form-control" placeholder="Enter your comments"></textarea>
                                             </div>
-                                        </div>
-                                        <div className="col-md-12">
+                                        </Col>
+                                        <Col md='12'>
                                             <div className="form-group-btn mb-0">
                                                 <button type="submit" className="btn btn-primary prime-btn">Send Message</button>
                                             </div>
-                                        </div>
-                                    </div>
+                                        </Col>
+                                    </Row>
                                 </form>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </section>
         <Footer/>
         </>
