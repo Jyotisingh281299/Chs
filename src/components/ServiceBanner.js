@@ -1,10 +1,10 @@
 import React from "react";
-import Serviceimg_1 from '../assets/img/virtual_call.png';
-import Serviceimg_2 from '../assets/img/appointment.png';
-import Serviceimg_3 from '../assets/img/lab_test.png';
-import Serviceimg_4 from '../assets/img/medical_bag.png';
-import Serviceimg_5 from '../assets/img/education.png';
-import Serviceimg_6 from '../assets/img/prescription.png';
+import Serviceimg_1 from '../assets/img/services/1.png';
+import Serviceimg_2 from '../assets/img/services/2.png';
+import Serviceimg_3 from '../assets/img/services/3.png';
+import Serviceimg_4 from '../assets/img/services/4.png';
+import Serviceimg_5 from '../assets/img/services/5.png';
+import Serviceimg_6 from '../assets/img/services/6.png';
 import { Link } from 'react-router-dom';
 import {ServiceDescriptionData} from '../Data';
 
@@ -38,7 +38,11 @@ export default function ServiceBanner() {
         <>
         <section className="clinic-features-section">
             <div className="container">
-                <div className="service_section pt-0">
+              <div className="row">
+                <div className="col-lg-12">
+
+               
+                <div className="service_section">
                     <div className="carousel">
                          <div id="panel-1" className="panel" style={serviceBanner1}>
                         </div>
@@ -52,6 +56,8 @@ export default function ServiceBanner() {
                         <div id="panel-9" className="panel" style={serviceBanner3}></div>
                     </div>
                 </div>
+                </div>
+              </div>
             </div>
             </section>
 
@@ -67,15 +73,17 @@ export default function ServiceBanner() {
                   {ServiceDescriptionData.map((item) => (
                   <div className="col-lg-4" key={item.id}>
                     <div className="card">
+                      <div className="card-header p-0">
+                      <img src={item.service_desc_img} className="img-fluid"/>
+                      </div>
                       <div className="card-body text-center">
-                      <img src={item.service_desc_img1} className="img-fluid"/>
+                     
                        <h5>{item.service_heading}</h5>
                        <p>{item.service_desc}</p>
                        <div class="view-all-more text-center">
                         <Link to="/About" class="btn btn-primary btn btn-primary">View More</Link>
                         </div>
                       </div>
-
                       </div>
                       </div>
                       ))}

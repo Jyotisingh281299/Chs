@@ -41,11 +41,12 @@ import popularcat_img10 from '../src/assets/img/categorie-12.png';
 import pharmacy_banner1 from '../src/assets/img/product-16.png';
 import pharmacy_banner2 from '../src/assets/img/product-17.png';
 import pharmacy_banner3 from '../src/assets/img/product-18.png';
-import service_desc_img1 from '../src/assets/img/virtual_call1.png';
-import service_desc_img2 from '../src/assets/img/appointment1.png';
-import service_desc_img3 from '../src/assets/img/prescription1.png';
-import service_desc_img5 from '../src/assets/img/medical_bag1.png';
-import service_desc_img6 from '../src/assets/img/diagonstic1.png';
+import service_desc_img1 from '../src/assets/img/services/virutal_call.png';
+import service_desc_img2 from '../src/assets/img/services/appointment.png';
+import service_desc_img3 from '../src/assets/img/services/prescription.png';
+import service_desc_img4 from '../src/assets/img/services/lab_test.png';
+import service_desc_img5 from '../src/assets/img/services/pharmacy_service.png';
+import service_desc_img6 from '../src/assets/img/services/diagonsis.png';
 
 
 export const Navbar = [
@@ -543,37 +544,37 @@ export const PharmacyProduct=[
 export const ServiceDescriptionData=[
   {
     id:1,
-    service_desc_img1:service_desc_img1,
+    service_desc_img:service_desc_img1,
     service_heading:'Virtual Consultations',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },
   {
     id:2,
-    service_desc_img1:service_desc_img2,
+    service_desc_img:service_desc_img2,
     service_heading:'Appointment Scheduling',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },
   {
     id:3,
-    service_desc_img1:service_desc_img3,
+    service_desc_img:service_desc_img3,
     service_heading:'Prescription Refills',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },
   {
     id:4,
-    service_desc_img1:service_desc_img1,
+    service_desc_img:service_desc_img4,
     service_heading:'Lab Test Results',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },
   {
     id:5,
-    service_desc_img1:service_desc_img5,
+    service_desc_img:service_desc_img5,
     service_heading:'Pharmacy Services',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },
   {
     id:6,
-    service_desc_img1:service_desc_img6,
+    service_desc_img:service_desc_img6,
     service_heading:'Diagnostics Services',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
   },

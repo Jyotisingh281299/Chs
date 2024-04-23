@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 
-const styles = {
-    backgroundColor:'#1e569e'
-  };
-  
 const Banner = () => {
-
-
   return (
-    <section className="section section-search" style={styles}>
+    <section className="section section-search">
       <Container fluid>
         <div className="banner-wrapper">
         <div className="banner-header text-center text-white aos aos-init aos-animate" data-aos="fade-up">

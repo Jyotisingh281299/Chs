@@ -3,9 +3,9 @@ import appointment_img from '../assets/img/appointment-ryt-1.png';
 import experience1 from '../assets/img/icons/experience-1.svg';
 import experience2 from '../assets/img/icons/experience-2.svg';
 import experience3 from '../assets/img/icons/experience-3.svg';
-import experience4 from '../assets/img/icons/experience-4.svg';
-import experience5 from '../assets/img/icons/experience-5.svg';
-import experience6 from '../assets/img/icons/experience-6.svg';
+import experience4 from '../assets/img/doctor.png';
+import experience5 from '../assets/img/health_issue.png';
+import experience6 from '../assets/img/get_a_solution.png';
 
 export default function BookAppointment() {
     return (
