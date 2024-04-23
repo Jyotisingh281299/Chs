@@ -7,6 +7,13 @@ import { Navbar } from '../Data';
 
 function Header() {
   const location = useLocation();
+  const [isSubmenuVisible, setIsSubmenuVisible] = useState(false);
+
+  const toggleSubmenu = () => {
+    setIsSubmenuVisible(!isSubmenuVisible);
+  };
+
+ 
   return (
     <header className="header header-trans header-two">
       <Container>
@@ -37,10 +44,10 @@ function Header() {
                 <li className={`${location.pathname === path ? 'active' : ''} ${submenu ? 'has-submenu' : ''}`} key={nav_item}>
                   {submenu ? (
                     <>
-                      <a href="javascript:void(0);">
+                      <a href="javascript:void(0);" onClick={toggleSubmenu}>
                         {menu_name} <i className="fas fa-chevron-down"></i>
                       </a>
-                      <ul className="submenu">
+                      <ul className={`submenu ${isSubmenuVisible ? 'show' : ''}`}>
                         {submenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
                             <Link to={subItem.path}>{subItem.menu_name}</Link>
@@ -57,7 +64,6 @@ function Header() {
                 <Link to="/">Login / Signup</Link>
               </li>
             </ul>
-
 
           </div>
           <ul className="nav header-navbar-rht">
