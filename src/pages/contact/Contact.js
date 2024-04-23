@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../../components/Header';
 import Breadcrumb from '../../components/Breadcrumb';
 import Footer from '../../components/Footer';
+import { Mail, MapPin, PhoneCall } from 'react-feather';
+import {email_address, phone_no, address} from '../../components/CompanyName';
 const Contact = () => {
 
     return (
@@ -19,33 +21,33 @@ const Contact = () => {
                         <div className="card contact-card">
                             <div className="card-body">
                                 <div className="contact-icon">
-                                    <i className="feather-map-pin"></i>
+                                    <MapPin/>
                                 </div>
                                 <div className="contact-details">
                                     <h4>Address</h4>
-                                    <p>8432 Mante Highway, Aminaport, USA</p>
+                                    <p>{address}</p>
                                 </div>
                             </div>
                         </div>
                         <div className="card contact-card">
                             <div className="card-body">
                                 <div className="contact-icon">
-                                    <i className="feather-phone"></i>
+                                   <PhoneCall/>
                                 </div>
                                 <div className="contact-details">
                                     <h4>Phone Number</h4>
-                                    <p>+1 315 369 5943</p>
+                                    <p>{phone_no}</p>
                                 </div>
                             </div>
                         </div>
                         <div className="card contact-card">
                             <div className="card-body">
                                 <div className="contact-icon">
-                                    <i className="feather-mail"></i>
+                               <Mail/>
                                 </div>
                                 <div className="contact-details">
                                     <h4>Email Address</h4>
-                                    <p>doccure@example.com</p>
+                                    <p>{email_address}</p>
                                 </div>
                             </div>
                         </div>
