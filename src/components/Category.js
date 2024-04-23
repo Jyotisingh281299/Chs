@@ -10,7 +10,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Category = () => {
   const responsiveFeatures = {
     0: {
-        items: 2,
+        items: 1,
         nav:true
     },
     600: {
@@ -36,7 +36,7 @@ const Category = () => {
             </div>
             <Row>
               <Col xl='12' lg='12' md='12'>
-            <OwlCarousel className='owl-theme' loop margin={10} dots={false} nav={true} responsive={responsiveFeatures}>
+            <OwlCarousel className='owl-theme' loop margin={10} autoPlay={true} dots={false} nav={true} responsive={responsiveFeatures}>
               {cardData.map((card) => (
                 <div
                   key={card.id}

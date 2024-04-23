@@ -90,7 +90,7 @@ export const Navbar = [
   {
     id: 7,
     menu_name: 'Services',
-    path: '/contact', // Update with correct path
+    path: '', // Update with correct path
   },
   {
     id: 6,

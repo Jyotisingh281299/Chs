@@ -4320,7 +4320,7 @@ th.table-head-days {
 }
 
 .header .header-nav .main-nav .has-submenu.active>a {
-    color: #1b5d92
+    /* color: #1b5d92 */
 }
 
 @media(min-width: 992px) {
@@ -38542,7 +38542,7 @@ span.refund {
 
 @media(max-width: 575.98px) {
     .deals-list .nav li {
-        width:46%;
+        width:100%;
         margin: 0 10px
     }
 }
@@ -49759,7 +49759,7 @@ ul li {
 
 @media(max-width: 575.98px) {
     .appointment-tabs ul {
-        display:block
+        /* display:block */
     }
 }
 
@@ -52631,4 +52631,8 @@ ul li {
 .nav-link
 {
     color: #000;
+}
+
+.submenu.show{
+    display: block !important;
 }
