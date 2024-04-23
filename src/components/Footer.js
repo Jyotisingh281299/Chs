@@ -1,12 +1,12 @@
 import React from "react";
 import ChsLogo from '../assets/img/chs_logo.png';
-import getCompanyName from "./CompanyName";
+import { company_name, email_address, phone_no, address } from "./CompanyName";
 import { Col, Container, Row } from "react-bootstrap";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, PhoneCall, Twitter } from 'react-feather';
 import { Link } from "react-router-dom";
 
 export default function Footer()
 {
-    const companyName = getCompanyName();
     return (
         <footer className="footer">
             <div className="footer-top">
@@ -21,19 +21,16 @@ export default function Footer()
                                     <div className="social-icon">
                                         <ul>
                                             <li>
-                                                <Link to="javascript:void(0);"><i className="fab fa-facebook-f"></i> </Link>
+                                                <Link to="javascript:void(0);"><Facebook/> </Link>
                                             </li>
                                             <li>
-                                            <Link to="javascript:void(0);"><i className="fab fa-twitter"></i> </Link>
+                                            <Link to="javascript:void(0);"><Twitter/> </Link>
                                             </li>
                                             <li>
-                                            <Link to="javascript:void(0);"><i className="fab fa-linkedin-in"></i></Link>
+                                            <Link to="javascript:void(0);"><Linkedin/></Link>
                                             </li>
                                             <li>
-                                            <Link to="javascript:void(0);"><i className="fab fa-instagram"></i></Link>
-                                            </li>
-                                            <li>
-                                            <Link to="javascript:void(0);"><i className="fab fa-dribbble"></i> </Link>
+                                            <Link to="javascript:void(0);"><Instagram/></Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -44,11 +41,11 @@ export default function Footer()
                             <div className="footer-widget footer-menu">
                                 <h2 className="footer-title">About Us</h2>
                                 <ul>
-                                    <li><Link to="javascript:void(0);">Home</Link></li>
-                                    <li><Link to="javascript:void(0);">About Us</Link></li>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/about">About Us</Link></li>
                                     <li><Link to="javascript:void(0);">Register</Link></li>
-                                    <li><Link to="javascript:void(0);">Contact Us</Link></li>
-                                    <li><Link to="javascript:void(0);">Patient Dashboard</Link></li>
+                                    <li><Link to="/contact">Contact Us</Link></li>
+                                    <li><Link to="/patient">Patient Dashboard</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -69,17 +66,20 @@ export default function Footer()
                                 <h2 className="footer-title">Contact Us</h2>
                                 <div className="footer-contact-info">
                                     <div className="footer-address">
-                                        <span><i className="fas fa-map-marker-alt"></i></span>
-                                        <p> 65, Gaytri puram, Kursi Road, Lucknow- 226022 </p>
+                                        <span><MapPin/></span>
+                                        <p>{address} </p>
                                     </div>
-                                    <p>
-                                        <i className="fas fa-phone-alt"></i>
-                                        +91 7060977139
+                                    <div className="footer-address">
+                                       <span><PhoneCall/></span>
+                                     <p> {phone_no}
                                     </p>
-                                    <p className="mb-0">
-                                        <i className="fas fa-envelope"></i>
-                                        caresmart@gmail.com
+                                    </div>
+                                    <div className="footer-address">
+                                    
+                                    <span> <Mail/></span>
+                                    <p className="mb-0">{email_address}
                                     </p>
+                                    </div>
                                 </div>
                             </div>
                         </Col>
@@ -94,7 +94,7 @@ export default function Footer()
                         <Row>
                             <Col sm='8' md='8'>
                                 <div className="copyright-text">
-                                    <p className="mb-0">© 2024 {companyName}. All rights reserved.
+                                    <p className="mb-0">© 2024 {company_name}. All rights reserved.
                                      Designed by <Link to="https://softtrixsoftware.com/" target="_blank" className="text-white">Softtrix Software Pvt. Ltd.</Link>
                                     </p>
                                 </div>

@@ -3875,7 +3875,7 @@ th.table-head-days {
     border: 0;
     border-bottom: 1px solid #f0f0f0;
     position: relative;
-    height: 85px;
+    height: 78px;
     margin-bottom: 0;
     padding: 0
 }
@@ -35873,7 +35873,7 @@ span.refund {
 
 .feedback-section-fifteen .feedback-schedule-all .feedback-fifteen-content a {
     padding: 15px 43px;
-    background: #0ce0ff;
+    background: var(--bg-secondary);
     border-radius: 5px;
     display: inline-block;
     color: #fff;
@@ -35965,8 +35965,8 @@ span.refund {
 
 @media(max-width: 575.98px) {
     .appointment-section-fifteen .appointment-schedule-main ul li {
-        width:50%;
-        margin-right: 1px
+        width:45%;
+        margin-right: 10px
     }
 }
 
@@ -35993,7 +35993,7 @@ span.refund {
 }
 
 .appointment-section-fifteen .appointment-schedule-main a {
-    background: #0ce0ff;
+    background: var(--button-primary);
     padding: 15px 25px;
     border-radius: 5px;
     display: inline-block;
