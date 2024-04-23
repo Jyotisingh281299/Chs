@@ -8486,9 +8486,9 @@ html.menu-opened body {
 
 /****** PAGES ******/
 .section-search {
-  background: rgb(0, 0, 0, 0.5) url(./assets/img/bg.png) no-repeat bottom center;
+  background: url(./assets/img/bg.png) no-repeat bottom center;
   /* min-height: 530px; */
-  background-size: 100% auto;
+  /* background-size: 100% auto; */
   position: relative;
   padding: 175px 0 55px 0;
 }
