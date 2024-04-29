@@ -68,7 +68,7 @@ function PatientDashboard() {
                                             <h3>Dashboard</h3>
                                         </div>
 
-                                        <div class="col-xl-12 d-flex">
+                                        <Col lg='12' xl='12' class="d-flex">
                                             <div class="dashboard-card w-100">
                                                 <div class="dashboard-card-head">
                                                     <div class="header-title">
@@ -81,7 +81,6 @@ function PatientDashboard() {
                                                 </div>
                                                 <div class="dashboard-card-body">
                                                     <div class="account-detail-table">
-
                                                         <nav class="patient-dash-tab border-0 pb-0 mb-3 mt-3">
                                                             <ul class="nav nav-tabs-bottom" role="tablist">
                                                                 <li class="nav-item" role="presentation">
@@ -179,69 +178,6 @@ function PatientDashboard() {
                                                                                         </div>
                                                                                     </td>
                                                                                 </tr>
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);"><span class="text-blue">RE124340</span></a>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        Liver Function Tests
-                                                                                    </td>
-                                                                                    <td>15 Apr 2024</td>
-                                                                                    <td>Joseph Engels</td>
-                                                                                    <td>$480</td>
-                                                                                    <td>Stable, no change</td>
-                                                                                    <td>
-                                                                                        <span class="badge badge-success-bg">Normal</span>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="d-flex align-items-center">
-                                                                                            <a href="#" class="account-action me-2"><i class="fa-solid fa-prescription"></i></a>
-                                                                                            <a href="#" class="account-action"><i class="fa-solid fa-file-invoice-dollar"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);"><span class="text-blue">RE124339</span></a>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        Lipid Profile
-                                                                                    </td>
-                                                                                    <td>27 Apr 2024</td>
-                                                                                    <td>Victoria Selzer</td>
-                                                                                    <td>$250</td>
-                                                                                    <td>Good take rest</td>
-                                                                                    <td>
-                                                                                        <span class="badge badge-success-bg">Normal</span>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="d-flex align-items-center">
-                                                                                            <a href="#" class="account-action me-2"><i class="fa-solid fa-prescription"></i></a>
-                                                                                            <a href="#" class="account-action"><i class="fa-solid fa-file-invoice-dollar"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <a href="#"><span class="text-blue">RE124338</span></a>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        Blood Cultures
-                                                                                    </td>
-                                                                                    <td>10 May 2024</td>
-                                                                                    <td>Juliet Gabriel</td>
-                                                                                    <td>$320</td>
-                                                                                    <td>Good take rest</td>
-                                                                                    <td>
-                                                                                        <span class="badge badge-success-bg">Normal</span>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <div class="d-flex align-items-center">
-                                                                                            <a href="#" class="account-action me-2"><i class="fa-solid fa-prescription"></i></a>
-                                                                                            <a href="#" class="account-action"><i class="fa-solid fa-file-invoice-dollar"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
                                                                             </tbody>
                                                                         </table>
                                                                     </div>
@@ -272,121 +208,6 @@ function PatientDashboard() {
                                                                                     </td>
                                                                                     <td>24 Mar 2024</td>
                                                                                     <td>Glucose Test V12</td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-pen-to-square"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="javascript:void(0);">#MR-124</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon">
-                                                                                            <span><i class="fa-solid fa-paperclip"></i></span>Lab Report
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>27 Mar 2024</td>
-                                                                                    <td>Complete Blood Count(CBC)</td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-pen-to-square"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#">#MR-125</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon">
-                                                                                            <span><i class="fa-solid fa-paperclip"></i></span>Lab Report
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>10 Apr 2024</td>
-                                                                                    <td>Echocardiogram</td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-pen-to-square"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="javascript:void(0);">#MR-126</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon">
-                                                                                            <span><i class="fa-solid fa-paperclip"></i></span>Lab Report
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>19 Apr 2024</td>
-                                                                                    <td>COVID-19 Test</td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-pen-to-square"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="javascript:void(0);">#MR-127</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon">
-                                                                                            <span><i class="fa-solid fa-paperclip"></i></span>Lab Report
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>27 Apr 2024</td>
-                                                                                    <td>Allergy Tests</td>
-                                                                                    <td>
-                                                                                        <div class="action-item">
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-pen-to-square"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-download"></i>
-                                                                                            </a>
-                                                                                            <a href="javascript:void(0);">
-                                                                                                <i class="fa-solid fa-trash-can"></i>
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="text-blue-600"><a href="#">#MR-128</a></td>
-                                                                                    <td>
-                                                                                        <a href="javascript:void(0);" class="lab-icon">
-                                                                                            <span><i class="fa-solid fa-paperclip"></i></span>Lab Report
-                                                                                        </a>
-                                                                                    </td>
-                                                                                    <td>02 May 2024</td>
-                                                                                    <td>Lipid Panel </td>
                                                                                     <td>
                                                                                         <div class="action-item">
                                                                                             <a href="javascript:void(0);">
@@ -460,25 +281,13 @@ function PatientDashboard() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </Col>
 
                                     </Tab.Pane>
 
                                     <Tab.Pane eventKey="second">
                                         <div class="dashboard-header">
                                             <h3>Appointments</h3>
-                                            <ul class="header-list-btns">
-                                                <li>
-                                                    <div class="view-icons">
-                                                        <a href="#" class="active"><i class="fa-solid fa-list"></i></a>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="view-icons">
-                                                        <a href="#"><i class="fa-solid fa-th"></i></a>
-                                                    </div>
-                                                </li>
-                                            </ul>
                                         </div>
                                         <div class="appointment-tab-head">
                                             <div class="appointment-tabs">
@@ -776,9 +585,7 @@ function PatientDashboard() {
                                             </div>
                                         </form>
                                     </Tab.Pane>
-
                                 </Tab.Content>
-
                             </Col>
                         </Row>
                     </Tab.Container>
