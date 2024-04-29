@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +10,7 @@ import Contact from './pages/contact/Contact';
 import PatientDashboard from './pages/patient/Patient';
 import DoctorList from './pages/doctorList/DoctorList';
 import DoctorProfile from './pages/doctorProfile/DoctorProfile';
+import DoctorDashboard from './pages/doctorDashboard/DoctorDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/patient" element={<PatientDashboard />} />
         <Route path="/DoctorList" element={<DoctorList />} />
         <Route path="/DoctorProfile" element={<DoctorProfile />} />
+        <Route path="/DoctorDashboard" element={<DoctorDashboard />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

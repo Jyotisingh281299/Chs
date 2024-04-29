@@ -8502,7 +8502,7 @@ html.menu-opened body {
     /* background: #fff !important; */
     padding: 100px 0 50px 0;
   }
-}
+} 
 @media (max-width: 479.98px) {
   .section-search {
     min-height: 410px;
@@ -8548,7 +8548,7 @@ html.menu-opened body {
   }
   .carousel .panel
   {
-    height: 230px !important;
+    height: 165px !important;
   }
   .service_section
 {
@@ -13720,9 +13720,9 @@ call-btn:hover, call-btn:focus {
   color: #272b41;
   text-transform: capitalize;
 }
-.patient-info ul li + li {
+/* .patient-info ul li + li {
   margin-top: 15px;
-}
+} */
 .patient-info ul li i {
   width: 18px;
 }
@@ -37842,7 +37842,7 @@ span[aria-label='Previous'], span[aria-label='Next']
 }
 .carousel .panel {
   position: absolute;
-  height: 240px;
+  height: 230px;
   width: 100%;
   border-radius: 30px;
   text-align: center;
@@ -37909,10 +37909,10 @@ span[aria-label='Previous'], span[aria-label='Next']
 }
 @keyframes turn {
   0% {
-    transform: translateZ(-50px) rotateY(360deg);
+    transform: translateZ(-20px) rotateY(360deg);
  }
   100% {
-    transform: translateZ(-50px) rotateY(0deg);
+    transform: translateZ(-20px) rotateY(0deg);
  }
 }
 
@@ -38037,4 +38037,20 @@ span[aria-label='Previous'], span[aria-label='Next']
   .header-ten .main-menu-wrapper .main-nav > li .submenu > li.has-submenu > a::after {
     content: "\f078";
   }
+}
+
+.box_shadow
+{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-pills .nav-link
+{
+  border-bottom: 1px solid #f0f0f0;
+  padding: 15px 10px;
+}
+
+.service_img
+{
+  width: 100%;
 }
