@@ -16,9 +16,6 @@ export default function PharmacySlider() {
                 <Carousel.Item interval={500}>
                 <img src={ExampleCarouselImage} className="img-fluid"/>
                 </Carousel.Item>
-                <Carousel.Item> 
-                <img src={ExampleCarouselImage} className="img-fluid"/>
-                </Carousel.Item>
             </Carousel>
             </Col>
               </Row>

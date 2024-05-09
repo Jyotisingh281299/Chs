@@ -6,6 +6,7 @@ import PharmacySearchBar from "./PharmacySearchBar";
 import { Button, Card, CardBody, Col, Container, Row } from "react-bootstrap";
 import PharmacyMenu from "../../pages/pharmacy/PharmacyMenu";
 import product_img from '../../assets/img/1.png';
+import Footer from "../Footer";
 
 export default function ProductDesc() {
     return (
@@ -222,6 +223,7 @@ export default function ProductDesc() {
                     </Row>
                 </Container>
             </div>
+            <Footer/>
         </>
     );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { User } from "react-feather";
 import { Link } from "react-router-dom";
 
 export default function PharmacyTopBar() {
@@ -19,10 +18,10 @@ export default function PharmacyTopBar() {
                                 <ul className="nav">
                                     <li>
                                     <div className="btn log-register">
-                                        <a href="" className="me-1">
+                                        <Link to="" className="me-1">
                                         <span><i className="fa fa-user"></i></span> Sign In
-                                        </a> /
-                                        <a href="" className="ms-1">Sign Up</a>
+                                        </Link> /
+                                        <Link href="" className="ms-1">Sign Up</Link>
                                         </div>
                                     </li>
                                 </ul>
