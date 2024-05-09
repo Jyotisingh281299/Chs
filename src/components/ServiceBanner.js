@@ -42,7 +42,7 @@ export default function ServiceBanner() {
           <div className="row">
             <div className="col-lg-12">
               <div className="service_section">
-                <div className="carousel">
+                <div className="carousel_service">
                   <div id="panel-1" className="panel" style={serviceBanner1}></div>
                   <div id="panel-2" className="panel" style={serviceBanner2}></div>
                   <div id="panel-3" className="panel" style={serviceBanner3}></div>

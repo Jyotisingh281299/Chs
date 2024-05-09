@@ -35,7 +35,14 @@ import popularcat_img4 from '../src/assets/img/categorie-04.png';
 import popularcat_img5 from '../src/assets/img/categorie-05.png';
 import popularcat_img6 from '../src/assets/img/categorie-06.png';
 import popularcat_img7 from '../src/assets/img/categorie-08.png';
-import popularcat_img8 from '../src/assets/img/categorie-09.png';
+import product_img1 from '../src/assets/img/1.png';
+import product_img2 from '../src/assets/img/2.png';
+import product_img3 from '../src/assets/img/3.png';
+import product_img4 from '../src/assets/img/4.png';
+import product_img5 from '../src/assets/img/5.png';
+import product_img6 from '../src/assets/img/6.png';
+import product_img7 from '../src/assets/img/7.png';
+import product_img8 from '../src/assets/img/8.png';
 import popularcat_img9 from '../src/assets/img/categorie-11.png';
 import popularcat_img10 from '../src/assets/img/categorie-12.png';
 import pharmacy_banner1 from '../src/assets/img/product-16.png';
@@ -86,7 +93,7 @@ export const Navbar = [
   {
     id: 4,
     menu_name: 'Pharmacy',
-    path: '', // Update with correct path
+    path: '/pharmacy', // Update with correct path
   },
   {
     id: 7,
@@ -431,12 +438,12 @@ export const PopularCategoryData=[
     category_name:'Baby Care',
     img:popularcat_img7,
   },
-  {
-    id:8,
-    number:20,
-    category_name:'Home & Health',
-    img:popularcat_img8,
-  },
+  // {
+  //   id:8,
+  //   number:20,
+  //   category_name:'Home & Health',
+  //   img:popularcat_img8,
+  // },
   {
     id:9,
     number:20,
@@ -501,7 +508,7 @@ export const PharmacyBanner=[
 export const PharmacyProduct=[
   {
     id:1,
-    img:popularcat_img8,
+    img:product_img1,
     product_cat:'Home & Health',
     product_name:'Echinacea',
     quantity:'100ml',
@@ -510,7 +517,7 @@ export const PharmacyProduct=[
   },
   {
     id:2,
-    img:popularcat_img8,
+    img:product_img2,
     product_cat:'Home & Health',
     product_name:'Echinacea',
     quantity:'100ml',
@@ -519,7 +526,7 @@ export const PharmacyProduct=[
   },
   {
     id:3,
-    img:popularcat_img8,
+    img:product_img3,
     product_cat:'Home & Health',
     product_name:'Echinacea',
     quantity:'100ml',
@@ -528,7 +535,43 @@ export const PharmacyProduct=[
   },
   {
     id:4,
-    img:popularcat_img8,
+    img:product_img4,
+    product_cat:'Home & Health',
+    product_name:'Echinacea',
+    quantity:'100ml',
+    price:500,
+    discount_price:600,
+  },
+  {
+    id:5,
+    img:product_img5,
+    product_cat:'Home & Health',
+    product_name:'Echinacea',
+    quantity:'100ml',
+    price:500,
+    discount_price:600,
+  },
+  {
+    id:6,
+    img:product_img6,
+    product_cat:'Home & Health',
+    product_name:'Echinacea',
+    quantity:'100ml',
+    price:500,
+    discount_price:600,
+  },
+  {
+    id:7,
+    img:product_img7,
+    product_cat:'Home & Health',
+    product_name:'Echinacea',
+    quantity:'100ml',
+    price:500,
+    discount_price:600,
+  },
+  {
+    id:8,
+    img:product_img8,
     product_cat:'Home & Health',
     product_name:'Echinacea',
     quantity:'100ml',

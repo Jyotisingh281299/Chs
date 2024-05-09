@@ -11,6 +11,10 @@ import PatientDashboard from './pages/patient/Patient';
 import DoctorList from './pages/doctorList/DoctorList';
 import DoctorProfile from './pages/doctorProfile/DoctorProfile';
 import DoctorDashboard from './pages/doctorDashboard/DoctorDashboard';
+import Pharmacy from './pages/pharmacy/Pharmacy';
+import ProductDesc from './components/pharmacy/ProductDesc';
+import Cart from './components/pharmacy/Cart';
+import Checkout from './components/pharmacy/Checkout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +28,10 @@ root.render(
         <Route path="/DoctorList" element={<DoctorList />} />
         <Route path="/DoctorProfile" element={<DoctorProfile />} />
         <Route path="/DoctorDashboard" element={<DoctorDashboard />} />
+        <Route path='/pharmacy' element={<Pharmacy/>}/>
+        <Route path='/ProductDesc' element={<ProductDesc/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

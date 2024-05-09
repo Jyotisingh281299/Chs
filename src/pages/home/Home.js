@@ -20,13 +20,15 @@ export default function Home()
     return(
         <>
             <Header/>
+            
             <Banner/>
+            <About_Short/>
             <ServiceBanner/>
             <BookAppointment/>
             <Facilities/>
             {/* <Category/> */}
            <FeedbackBanner/>
-            <About_Short/>
+            
             <BrowseCategory/>
            
             <PopularCategory/>

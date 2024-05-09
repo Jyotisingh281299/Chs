@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 import { Container, Nav, Row, Tab, Col } from "react-bootstrap";
 import Breadcrumb from "../../components/Breadcrumb";
 import Footer from "../../components/Footer";
-import { Calendar, Image, LogOut, MessageCircle, Search } from "react-feather";
+import { Calendar, Image, LogOut, Search } from "react-feather";
 import { Link } from "react-router-dom";
 
 function DoctorDashboard() {
@@ -43,9 +43,6 @@ function DoctorDashboard() {
                                         </div>
                                     </div>
                                     <div className="dashboard-widget">
-
-
-
                                         <Nav variant="pills" className="flex-column dashboard-menu">
 
                                             <Nav.Item>
