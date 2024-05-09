@@ -4,6 +4,7 @@ import {PharmacyProduct} from "../../Data";
 import { ShoppingBag} from 'react-feather';
 import { Link } from "react-router-dom";
 import '../../Data';
+import Footer from "../Footer";
 
 export default function FeaturedProduct()
 {

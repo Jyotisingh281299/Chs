@@ -10,7 +10,7 @@ export default function PharmacyMenu() {
             <header className="header">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg header-nav">
-                    <div className="navbar-header" style={{ display: 'none' }}>
+                    <div className="navbar-header d-md-none d-block">
                             <a id="mobile_btn" href="javascript:void(0);">
                                 <span className="bar-icon">
                                     <span></span>

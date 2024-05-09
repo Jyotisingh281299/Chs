@@ -6,6 +6,7 @@ import { Card, Container, Row, Col, CardHeader, CardBody, Table, Form, Button } 
 import { Link } from "react-router-dom";
 import { Input, Label } from "reactstrap";
 import PharmacyMenu from "../../pages/pharmacy/PharmacyMenu";
+import Footer from "../Footer";
 
 export default function Checkout() {
     return (
@@ -190,6 +191,7 @@ export default function Checkout() {
                     </Row>
                 </Container>
             </div>
+            <Footer/>
         </>
     );
 }

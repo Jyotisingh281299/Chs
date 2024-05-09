@@ -3,6 +3,7 @@ import PharmacyTopBar from "./PharmacyTopBar";
 import PharmacySearchBar from "./PharmacySearchBar";
 import Breadcrumb from "../Breadcrumb";
 import PharmacyMenu from "../../pages/pharmacy/PharmacyMenu";
+import Footer from "../Footer";
 
 export default function Cart() {
     return (
@@ -109,6 +110,7 @@ export default function Cart() {
                     </div>
                 </div>
             </div>
+            <Footer/>
 
         </>
     );

@@ -6756,7 +6756,7 @@ html.menu-opened body {
 .card-header-tabs {
   border-bottom: 0;
 }
-
+/* 
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-duration: 0.6s;
@@ -6814,7 +6814,7 @@ html.menu-opened body {
   -o-background-size: cover;
   background-size: cover;
   z-index: -1 !important;
-}
+} */
 
 .divider .carousel-caption {
   position: absolute;
@@ -6824,7 +6824,7 @@ html.menu-opened body {
   left: 5%;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   z-index: 10;
   padding-bottom: 20px;
   color: #ffffff;
@@ -6848,9 +6848,9 @@ html.menu-opened body {
   font-size: 18px;
   font-weight: 700;
   color: rgb(46, 56, 66);
-}
+} */
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
   .carousel-inner {
     height: 430px;
   }
@@ -6859,7 +6859,7 @@ html.menu-opened body {
   .carousel-inner {
     height: 200px;
   }
-}
+} */
 
 .slide-nav-1 button.owl-next, .slide-nav-1 button.owl-prev, .slide-nav-2 button.owl-next, .slide-nav-2 button.owl-prev, .slide-nav-3 button.owl-next, .slide-nav-3 button.owl-prev, .slide-nav-4 button.owl-next, .slide-nav-4 button.owl-prev {
   width: 34px;
@@ -8542,11 +8542,11 @@ html.menu-opened body {
   .section-search .banner-wrapper .banner-header h1 {
     font-size: 23px;
   }
-  .carousel
+  .carousel_service
   {
     width: 190px !important;
   }
-  .carousel .panel
+  .carousel_service .panel
   {
     height: 165px !important;
   }
