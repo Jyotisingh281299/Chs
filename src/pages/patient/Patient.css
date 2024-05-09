@@ -547,9 +547,9 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid #09dca4
 }
 
-.container-fluid {
+/* .container-fluid {
     padding: 0 30px
-}
+} */
 
 @media(max-width: 1199.98px) {
     .container-fluid {
@@ -37504,7 +37504,7 @@ span.refund {
 }
 
 .top-header {
-    background-color: #e8f1ff;
+    background-color: #1b5d92;
     padding: 10px 0
 }
 
@@ -37522,12 +37522,12 @@ span.refund {
 
 .top-header .special-offer-content p {
     font-size: 14px;
-    color: #334155;
+    color: #fff;
     margin-bottom: 0
 }
 
 .top-header .special-offer-content p span {
-    color: #0f172a;
+    color: #30af46;
     font-weight: 700
 }
 
@@ -37685,8 +37685,8 @@ span.refund {
 }
 
 .log-register {
-    background: #ffc001;
-    border: 1px solid #ffc001;
+    background: #30af46;
+    border: 1px solid #30af46;
     border-radius: 5px;
     padding: 6px;
     color: #0f172a;
@@ -37700,7 +37700,7 @@ span.refund {
 }
 
 .log-register:hover {
-    border-color: #ffc001;
+    border-color: #30af46;
     background: 0 0;
     box-shadow: inset 0 0 0 50px transparent;
     -webkit-transition: .5s;
@@ -37748,7 +37748,7 @@ span.refund {
     background: #f8fafc;
     padding: 10px;
     position: relative;
-    width: 25%;
+    width: 30%;
     float: left
 }
 
@@ -40117,11 +40117,11 @@ span.refund {
 }
 
 .product-description .doctor-img1 {
-    width: 40%
+    width: 25%
 }
 
 .product-description .doc-info-cont {
-    width: 60%
+    width: 75%
 }
 
 ul.benifits-col li i {

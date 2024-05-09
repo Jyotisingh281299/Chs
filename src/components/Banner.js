@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Form } from 'react-bootstrap';
 
 const Banner = () => {
   return (
@@ -11,7 +11,7 @@ const Banner = () => {
             <p className='text-white'>Discover the best doctors, clinic &amp; hospital the city nearest to you.</p>
             </div>
             <div className="search-box">
-            <form action="#">
+           <Form>
             <div className="mb-3 search-location aos aos-init aos-animate" data-aos="fade-up">
             <input type="text" className="form-control" placeholder="Search Location"/>
             <span className="form-text text-white">Based on your Location</span>
@@ -21,7 +21,7 @@ const Banner = () => {
             <span className="form-text text-white">Ex : Dental or Sugar Check up etc</span>
             </div>
             <button type="submit" className="btn btn-primary search-btn mt-0 aos aos-init aos-animate" data-aos="fade-up"><i className="fas fa-search"></i> <span>Search</span></button>
-            </form>
+            </Form>
             </div>
         </div>
       </Container>
