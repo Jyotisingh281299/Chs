@@ -7,6 +7,7 @@ import { Button, Card, CardBody, Col, Container, Row } from "react-bootstrap";
 import PharmacyMenu from "../../pages/pharmacy/PharmacyMenu";
 import product_img from '../../assets/img/1.png';
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 export default function ProductDesc() {
     return (
@@ -146,7 +147,7 @@ export default function ProductDesc() {
                             <Card className="search-filter">
                                 <CardBody>
                                     <div className="clini-infos mt-0">
-                                        <h2>$19 <b className="text-lg strike">$45</b> <span className="text-lg text-success"><b>10% off</b></span></h2>
+                                        <h2>19 <b className="text-lg strike">45</b> <span className="text-lg text-success"><b>10% off</b></span></h2>
                                     </div>
                                     <span className="badge badge-primary">In stock</span>
                                     <div className="custom-increment pt-4">
@@ -166,7 +167,7 @@ export default function ProductDesc() {
                                     </div>
                                     <div className="clinic-details mt-4">
                                     <div className="clinic-booking">
-                                        <Button className="cart_btn text-white">Add To Cart</Button>
+                                        <Link to='/Cart' className="btn btn-primary">Add To Cart</Link>
                                     </div>
                                     </div>
                                     <div className="card flex-fill mt-4 mb-0">

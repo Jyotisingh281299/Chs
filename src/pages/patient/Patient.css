@@ -543,8 +543,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-primary:hover {
-    background-color: #09dca4;
-    border: 1px solid #09dca4
+    background-color: #30af46;
+    border: 1px solid #30af46
 }
 
 /* .container-fluid {
@@ -1667,7 +1667,7 @@ a.btn.btn-facebook.w-100:hover {
 }
 
 a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover {
-    background-color: #09dca4!important
+    background-color: #30af46!important
 }
 
 .bg-success,.badge-success {
@@ -1763,34 +1763,34 @@ a.bg-danger:focus,a.bg-danger:hover,button.bg-danger:focus,button.bg-danger:hove
 }
 
 .btn-primary {
-    background-color: #09e5ab;
-    border: 1px solid #09e5ab
+    background-color: #30af46;
+    border: 1px solid #30af46
 }
 
 .btn-primary:focus,.btn-primary:hover,.btn-primary:active,.btn-primary.active {
     color: #fff;
-    background-color: #09dca4;
-    border-color: #09dca4
+    background-color: #30af46;
+    border-color: #30af46
 }
 
 .btn-primary:focus .open>.dropdown-toggle.btn-primary,.btn-primary:hover .open>.dropdown-toggle.btn-primary,.btn-primary:active .open>.dropdown-toggle.btn-primary,.btn-primary.active .open>.dropdown-toggle.btn-primary {
-    background-color: #09dca4;
-    border: 1px solid #09dca4
+    background-color: #30af46;
+    border: 1px solid #30af46
 }
 
 .btn-primary.active.focus .open>.dropdown-toggle.btn-primary.focus,.btn-primary.active.focus .open>.dropdown-toggle.btn-primary:focus,.btn-primary.active.focus .open>.dropdown-toggle.btn-primary:hover,.btn-primary.active:focus .open>.dropdown-toggle.btn-primary.focus,.btn-primary.active:focus .open>.dropdown-toggle.btn-primary:focus,.btn-primary.active:focus .open>.dropdown-toggle.btn-primary:hover,.btn-primary.active:hover .open>.dropdown-toggle.btn-primary.focus,.btn-primary.active:hover .open>.dropdown-toggle.btn-primary:focus,.btn-primary.active:hover .open>.dropdown-toggle.btn-primary:hover,.btn-primary .focus.focus .open>.dropdown-toggle.btn-primary.focus,.btn-primary .focus.focus .open>.dropdown-toggle.btn-primary:focus,.btn-primary .focus.focus .open>.dropdown-toggle.btn-primary:hover,.btn-primary .focus:focus .open>.dropdown-toggle.btn-primary.focus,.btn-primary .focus:focus .open>.dropdown-toggle.btn-primary:focus,.btn-primary .focus:focus .open>.dropdown-toggle.btn-primary:hover,.btn-primary .focus:hover .open>.dropdown-toggle.btn-primary.focus,.btn-primary .focus:hover .open>.dropdown-toggle.btn-primary:focus,.btn-primary .focus:hover .open>.dropdown-toggle.btn-primary:hover {
-    background-color: #09dca4;
-    border: 1px solid #09dca4
+    background-color: #30af46;
+    border: 1px solid #30af46
 }
 
 .btn-primary:active:focus,.btn-primary:active:hover {
-    background-color: #09dca4;
-    border: 1px solid #09dca4
+    background-color: #30af46;
+    border: 1px solid #30af46
 }
 
 .btn-primary .active:not(:disabled):not(.disabled),.btn-primary:active:not(:disabled):not(.disabled) {
-    background-color: #09dca4;
-    border-color: #09dca4;
+    background-color: #30af46;
+    border-color: #30af46;
     color: #fff
 }
 
@@ -1799,8 +1799,8 @@ a.bg-danger:focus,a.bg-danger:hover,button.bg-danger:focus,button.bg-danger:hove
 }
 
 .btn-primary .show>.btn-primary.dropdown-toggle {
-    background-color: #09dca4;
-    border-color: #09dca4;
+    background-color: #30af46;
+    border-color: #30af46;
     color: #fff
 }
 
@@ -2967,7 +2967,7 @@ table.table td h2 a {
 }
 
 table.table td h2 a:hover {
-    color: #09dca4
+    color: #30af46
 }
 
 table.table td h2 span {
@@ -3704,7 +3704,7 @@ th.table-head-days {
 }
 
 .card {
-    border: 1px solid #f0f0f0;
+    border: 1px solid #d4d4d49c;
     margin-bottom: 1.875rem
 }
 
@@ -4030,22 +4030,22 @@ th.table-head-days {
 }
 
 .header .header-nav .main-nav>.has-submenu.active .submenu li.active>a {
-    color: #09dca4
+    color: #30af46
 }
 
 @media(min-width: 992px) {
     .header .header-nav .main-nav>.has-submenu.active .submenu li.active>a {
-        color:#09dca4
+        color:#30af46
     }
 }
 
 .header .header-nav .main-nav>.has-submenu.active>a {
-    color: #09dca4
+    color: #30af46
 }
 
 @media(min-width: 992px) {
     .header .header-nav .main-nav>.has-submenu.active>a {
-        color:#09dca4
+        color:#30af46
     }
 }
 
@@ -4106,7 +4106,7 @@ th.table-head-days {
 }
 
 .header .header-nav .main-nav>li.active>a {
-    color: #09dca4
+    color: #30af46
 }
 
 .header .header-nav .main-nav>li .submenu li {
@@ -4457,7 +4457,7 @@ th.table-head-days {
 }
 
 .header .header-nav .header-navbar-rht li .dropdown-menu a:hover {
-    color: #09dca4;
+    color: #30af46;
     letter-spacing: .5px;
     padding-left: 20px;
     background-color: #fff
@@ -15003,7 +15003,7 @@ html.menu-opened body {
 }
 
 .terms-accept a {
-    color: #20c0f3;
+    color: #1e569e;
     font-weight: 500
 }
 
@@ -22344,7 +22344,7 @@ html.menu-opened body {
 }
 
 .login-right .dont-have a {
-    color: #09dca4
+    color: #30af46
 }
 
 .login-right .inner-right-login {
@@ -22461,11 +22461,11 @@ span.agree {
 }
 
 .terms-and-policy span.terms {
-    color: #09dca4
+    color: #30af46
 }
 
 .terms-and-policy a {
-    color: #09dca4
+    color: #30af46
 }
 
 .login-page .login-right {
@@ -25446,7 +25446,7 @@ a.mute-video.stop {
 }
 
 .exist-customer a {
-    color: #20c0f3;
+    color: #1e569e;
     font-weight: 500
 }
 
@@ -25492,7 +25492,7 @@ a.mute-video.stop {
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #20c0f3;
+    background-color:#1e569e;
     opacity: 0;
     visibility: hidden;
     transform: scale(.1);
@@ -25508,7 +25508,7 @@ a.mute-video.stop {
 }
 
 .payment-radio input:checked~.checkmark {
-    border-color: #20c0f3
+    border-color: #1e569e
 }
 
 .payment-radio input:checked~.checkmark::after {
@@ -25587,7 +25587,7 @@ a.mute-video.stop {
 }
 
 .booking-total ul li .total-cost {
-    color: #20c0f3;
+    color: #1e569e;
     font-size: 16px;
     float: right
 }
@@ -36669,7 +36669,7 @@ span.refund {
 }
 
 .services-section-sixteen .discover-you-main .discov-innner:hover {
-    color: #09dca4
+    color: #30af46
 }
 
 .services-section-sixteen .service-sixteen-icon {
@@ -36947,7 +36947,7 @@ span.refund {
 }
 
 .facts-section-sixteen .facts-section-all .facts-main-sixteen a:hover {
-    color: #09dca4
+    color: #30af46
 }
 
 .facts-section-sixteen .facts-section-all .facts-content-all {
@@ -44200,7 +44200,7 @@ input:checked+.tog-slider:before {
 }
 
 .booking-card {
-    border: 2px solid #f4f4f4;
+    border: 2px solid #d4d4d49c;
     border-radius: 8px;
     margin-bottom: 25px
 }

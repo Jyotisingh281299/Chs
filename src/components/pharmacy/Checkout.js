@@ -62,7 +62,7 @@ export default function Checkout() {
                                             <div className="terms-accept">
                                                 <div className="custom-checkbox">
                                                     <Input type="checkbox" id="terms_accept"/>
-                                                        <Label for="terms_accept">Ship to a different address?</Label>
+                                                        <Label for="terms_accept"> &nbsp; Ship to a different address?</Label>
                                                 </div>
                                             </div>
                                             <div className="mb-3 card-label">
@@ -128,13 +128,12 @@ export default function Checkout() {
                                             <div className="terms-accept">
                                                 <div className="custom-checkbox">
                                                     <Input type="checkbox" id="terms_accept1"/>
-                                                        <Label for="terms_accept1">I have read and accept <Link to="#">Terms &amp; Conditions</Link></Label>
+                                                        <Label for="terms_accept1"> &nbsp; I have read and accept <Link to="#">Terms &amp; Conditions</Link></Label>
                                                 </div>
                                             </div>
 
-
                                             <div className="submit-section mt-4">
-                                                <Button type="submit" className="btn btn-primary submit-btn">Confirm and Pay</Button>
+                                                <Link to='/OrderSuccess' className="btn btn-primary submit-btn">Confirm and Pay</Link>
                                             </div>
                                         </div>
                                     </Form>
@@ -157,11 +156,11 @@ export default function Checkout() {
                                             <tbody>
                                                 <tr>
                                                     <td>Safi Natural Blood Purifier Syrup 200 ml Manufactured By Hamdard (Wakf) Laboratories</td>
-                                                    <td className="text-end">$200</td>
+                                                    <td className="text-end">200</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Safi Natural Blood Purifier Syrup 200 ml</td>
-                                                    <td className="text-end">$200</td>
+                                                    <td className="text-end">200</td>
                                                 </tr>
                                             </tbody>
                                         </Table>
@@ -169,17 +168,17 @@ export default function Checkout() {
                                     <div className="booking-summary pt-5">
                                         <div className="booking-item-wrap">
                                             <ul className="booking-date d-block pb-0">
-                                                <li>Subtotal <span>$5,877.00</span></li>
-                                                <li>Shipping <span>$25.00</span></li>
+                                                <li>Subtotal <span>5,877.00</span></li>
+                                                <li>Shipping <span>25.00</span></li>
                                             </ul>
                                             <ul className="booking-fee">
-                                                <li>Tax <span>$0.00</span></li>
+                                                <li>Tax <span>0.00</span></li>
                                             </ul>
                                             <div className="booking-total">
                                                 <ul className="booking-total-list">
                                                     <li>
                                                         <span>Total</span>
-                                                        <span className="total-cost">$160</span>
+                                                        <span className="total-cost">160</span>
                                                     </li>
                                                 </ul>
                                             </div>

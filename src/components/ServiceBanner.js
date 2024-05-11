@@ -78,7 +78,7 @@ export default function ServiceBanner() {
                         <h5>{item.service_heading}</h5>
                         <p>{item.service_desc}</p>
                         <div class="view-all-more text-center">
-                          <Link to="/About" class="btn btn-primary btn btn-primary">View More</Link>
+                          <Link to={item.path} class="btn btn-primary">View More</Link>
                         </div>
                       </div>
                     </div>
