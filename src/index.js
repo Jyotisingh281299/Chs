@@ -18,6 +18,9 @@ import Checkout from './components/pharmacy/Checkout';
 import VirtualConsultation from './pages/services/VirtualConsultation';
 import DoctorBooking from './pages/BookingDetail/DoctorBooking';
 import OrderSuccess from './components/pharmacy/OrderSuccess';
+import PatientDetails from './components/doctorBooking/PatientDetails';
+import ConsultationType from './components/doctorBooking/ConsultationType';
+import BookingSuccess from './pages/BookingSuccess/BookingSuccess';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,6 +41,9 @@ root.render(
         <Route path='/VirtualConsultation' element={<VirtualConsultation/>}/>
         <Route path='/DoctorBooking' element={<DoctorBooking/>}/>
         <Route path='/OrderSuccess' element={<OrderSuccess/>}/>
+        <Route path='/PatientDetails' element={<PatientDetails/>}/>
+        <Route path='/ConsultationType' element={<ConsultationType/>}/>
+        <Route path='/BookingSuccess' element={<BookingSuccess/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

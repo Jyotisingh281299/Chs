@@ -125,7 +125,7 @@ export default function DoctorBooking() {
                                 </CardBody>
                             </Card>
                             <div class="booking-btn">
-                                <Link href="/" class="btn btn-primary prime-btn justify-content-center align-items-center">
+                                <Link to="/PatientDetails" class="btn btn-primary prime-btn justify-content-center align-items-center">
                                     Next <ArrowDownRight/>
                                 </Link>
                             </div>
