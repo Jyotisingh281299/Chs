@@ -4,7 +4,8 @@ import Breadcrumb from '../../components/Breadcrumb';
 import Footer from '../../components/Footer';
 import { Mail, MapPin, PhoneCall } from 'react-feather';
 import {email_address, phone_no, address} from '../../components/CompanyName';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, CardBody, Form, Card } from 'react-bootstrap';
+import { Input, Label } from 'reactstrap';
 const Contact = () => {
 
     return (
@@ -17,10 +18,10 @@ const Contact = () => {
                     <Col lg='5' md='12'>
                         <div className="section-inner-header contact-inner-header">
                             <h6>Get in touch</h6>
-                            <h2>Have Any Question?</h2>
+                            <h3>Have Any Question?</h3>
                         </div>
-                        <div className="card contact-card">
-                            <div className="card-body">
+                        <Card className="contact-card">
+                        <CardBody>
                                 <div className="contact-icon">
                                     <MapPin/>
                                 </div>
@@ -28,10 +29,10 @@ const Contact = () => {
                                     <h4>Address</h4>
                                     <p>{address}</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="card contact-card">
-                            <div className="card-body">
+                            </CardBody>
+                        </Card>
+                        <Card className="contact-card">
+                        <CardBody>
                                 <div className="contact-icon">
                                    <PhoneCall/>
                                 </div>
@@ -39,10 +40,10 @@ const Contact = () => {
                                     <h4>Phone Number</h4>
                                     <p>{phone_no}</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="card contact-card">
-                            <div className="card-body">
+                            </CardBody>
+                        </Card>
+                        <Card className="contact-card">
+                           <CardBody>
                                 <div className="contact-icon">
                                <Mail/>
                                 </div>
@@ -50,53 +51,53 @@ const Contact = () => {
                                     <h4>Email Address</h4>
                                     <p>{email_address}</p>
                                 </div>
-                            </div>
-                        </div>
+                            </CardBody>
+                        </Card>
                     </Col>
                     <Col lg='7' md='12' className="d-flex">
-                        <div className="card contact-form-card w-100">
-                            <div className="card-body">
-                                <form>
+                        <Card className="contact-form-card w-100">
+                           <CardBody>
+                                <Form>
                                     <Row>
                                         <Col md='6'>
                                             <div className="mb-3">
-                                                <label className="mb-2">Name</label>
-                                                <input type="text" className="form-control" placeholder="Enter Your Name"/>
+                                                <Label className="mb-2">Name</Label>
+                                                <Input type="text" className="form-control" placeholder="Enter Your Name"/>
                                             </div>
                                         </Col>
                                         <Col md='6'>
                                             <div className="mb-3">
-                                                <label className="mb-2">Email Address</label>
-                                                <input type="text" className="form-control" placeholder="Enter Email Address"/>
+                                                <Label className="mb-2">Email Address</Label>
+                                                <Input type="text" className="form-control" placeholder="Enter Email Address"/>
                                             </div>
                                         </Col>
                                         <Col md='6'>
                                             <div className="mb-3">
-                                                <label className="mb-2">Phone Number</label>
-                                                <input type="text" className="form-control" placeholder="Enter Phone Number"/>
+                                                <Label className="mb-2">Phone Number</Label>
+                                                <Input type="text" className="form-control" placeholder="Enter Phone Number"/>
                                             </div>
                                         </Col>
                                         <Col md='6'>
                                             <div className="mb-3">
-                                                <label className="mb-2">Services</label>
-                                                <input type="text" className="form-control" placeholder="Enter Services"/>
+                                                <Label className="mb-2">Services</Label>
+                                                <Input type="text" className="form-control" placeholder="Enter Services"/>
                                             </div>
                                         </Col>
                                         <Col md='12'>
                                             <div className="mb-3">
-                                                <label className="mb-2">Message</label>
+                                                <Label className="mb-2">Message</Label>
                                                 <textarea className="form-control" placeholder="Enter your comments"></textarea>
                                             </div>
                                         </Col>
                                         <Col md='12'>
                                             <div className="form-group-btn mb-0">
-                                                <button type="submit" className="btn btn-primary prime-btn">Send Message</button>
+                                                <Button type="submit" className="btn btn-primary prime-btn">Send Message</Button>
                                             </div>
                                         </Col>
                                     </Row>
-                                </form>
-                            </div>
-                        </div>
+                                </Form>
+                            </CardBody>
+                        </Card>
                     </Col>
                 </Row>
             </Container>

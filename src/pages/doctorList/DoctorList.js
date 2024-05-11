@@ -284,7 +284,7 @@ function DoctorList() {
                                                     </div>
                                                     <div className="clinic-booking book-appoint">
                                                         <Link className="btn btn-primary" to="/doctorprofile">View Details</Link>
-                                                        <Link className="btn btn-primary-light" href="#">Book Online Consultation</Link>
+                                                        <Link className="btn btn-primary-light" to="/doctorbooking">Book Online Consultation</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -293,9 +293,6 @@ function DoctorList() {
                                 </Col>
                             </Row>
                         </Col>
-                        <div className="col-xl-3 col-lg-12 theiaStickySidebar map-right">
-                            <div id="map" className="map-listing"></div>
-                        </div>
                     </Row>
                 </Container>
             </div>

@@ -3,6 +3,7 @@ import PharmacyTopBar from "./PharmacyTopBar";
 import PharmacySearchBar from "./PharmacySearchBar";
 import Breadcrumb from "../Breadcrumb";
 import PharmacyMenu from "../../pages/pharmacy/PharmacyMenu";
+import product_img from '../../assets/img/1.png';
 import Footer from "../Footer";
 
 export default function Cart() {
@@ -32,12 +33,12 @@ export default function Cart() {
                                         <tr>
                                             <td>
                                                 <h2 class="table-avatar">
-                                                    <a href="#" class="avatar avatar-sm me-2"><img class="avatar-img" src="assets/img/products/product.jpg" alt="User Image"/></a>
+                                                    <a href="#" class="avatar avatar-sm me-2"><img class="avatar-img" src={product_img} alt="User Image"/></a>
                                                 </h2>
                                                 <a href="#">Benzaxapine Croplex</a>
                                             </td>
                                             <td>26565</td>
-                                            <td>$19</td>
+                                            <td>19</td>
                                             <td>
                                                 <div class="custom-increment cart">
                                                     <div class="input-group1">
@@ -55,7 +56,7 @@ export default function Cart() {
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td>$19</td>
+                                            <td>19</td>
                                             <td>
                                                 <div class="table-action">
                                                     <a href="javascript:void(0);" class="btn btn-sm bg-danger-light">
@@ -82,21 +83,21 @@ export default function Cart() {
                                     <div class="booking-summary">
                                         <div class="booking-item-wrap">
                                             <ul class="booking-date d-block pb-0">
-                                                <li>Subtotal <span>$5,877.00</span></li>
-                                                <li>Shipping <span>$25.00<a href="#">Calculate shipping</a></span></li>
+                                                <li>Subtotal <span>5,877.00</span></li>
+                                                <li>Shipping <span>25.00<a href="#">Calculate shipping</a></span></li>
                                             </ul>
                                             <ul class="booking-fee pt-4">
-                                                <li>Tax <span>$0.00</span></li>
+                                                <li>Tax <span>0.00</span></li>
                                             </ul>
                                             <div class="booking-total">
                                                 <ul class="booking-total-list">
                                                     <li>
                                                         <span>Total</span>
-                                                        <span class="total-cost">$160</span>
+                                                        <span class="total-cost">160</span>
                                                     </li>
                                                     <li>
                                                         <div class="clinic-booking pt-4">
-                                                            <a class="apt-btn" href="product-checkout.html">Proceed to checkout</a>
+                                                            <a class="apt-btn" href="/Checkout">Proceed to checkout</a>
                                                         </div>
                                                     </li>
                                                 </ul>

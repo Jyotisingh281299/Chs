@@ -27,10 +27,10 @@ const Team = () => {
                   <div key={doctor.id} className="item">
                     <div className="our-doctors-card">
                       <div className="doctors-header">
-                      <Link to="#"><img src={doctor.img} alt={doctor.name} className="img-fluid" /></Link>
+                      <Link to="/doctorlist"><img src={doctor.img} alt={doctor.name} className="img-fluid" /></Link>
                       </div>
                       <div className="doctors-body">
-                        <Link to="#">
+                        <Link to="/doctorlist">
                           <h4>{doctor.name}</h4>
                         </Link>
                         <p>{doctor.specialty}</p>
@@ -40,10 +40,10 @@ const Team = () => {
                         </div>
                         <Row className="row-sm mt-1">
                           <Col xs='6'>
-                            <Link to="#" className="btn view-btn" tabIndex="0">View Profile</Link>
+                            <Link to="/doctorlist" className="btn view-btn" tabIndex="0">View Profile</Link>
                           </Col>
                           <Col xs='6'>
-                            <Link to="#" className="btn book-btn" tabIndex="0">Book Now</Link>
+                            <Link to="/doctorlist" className="btn book-btn" tabIndex="0">Book Now</Link>
                           </Col>
                         </Row>
                       </div>

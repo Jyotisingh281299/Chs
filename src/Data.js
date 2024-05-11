@@ -65,7 +65,7 @@ export const Navbar = [
   {
     id: 2,
     menu_name: 'Doctors',
-    path: '/doctordashboard', // Update with correct path
+    path: '/doctorlist', // Update with correct path
   
   },
   {
@@ -80,11 +80,6 @@ export const Navbar = [
       },
       {
         id:2,
-        menu_name:'Search Doctor',
-        path:'/doctorlist',
-      },
-      {
-        id:3,
         menu_name:'Doctor Profile',
         path:'',
       },
@@ -590,6 +585,7 @@ export const ServiceDescriptionData=[
     service_desc_img:service_desc_img1,
     service_heading:'Virtual Consultations',
     service_desc:'Virtual consultations allow doctors to see more patients in less time since they eliminate the need for travel and waiting room time.',
+    path:'/VirtualConsultation',
   },
   {
     id:2,
