@@ -7,6 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
 import { Row, Col, Container, Card, CardBody } from "react-bootstrap";
 import BookingSummary from "../../components/doctorBooking/BookingSummary";
+import { ArrowDownRight } from "react-feather";
 
 export default function DoctorBooking() {
     return (
@@ -124,14 +125,13 @@ export default function DoctorBooking() {
                                 </CardBody>
                             </Card>
                             <div class="booking-btn">
-                                <Link href="#" class="btn btn-primary prime-btn justify-content-center align-items-center">
-                                    Next <i class="feather-arrow-right-circle"></i>
+                                <Link href="/" class="btn btn-primary prime-btn justify-content-center align-items-center">
+                                    Next <ArrowDownRight/>
                                 </Link>
                             </div>
                         </Col>
                        <BookingSummary/>
                     </Row>
-
                 </Container>
             </div>
             <Footer/>

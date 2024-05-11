@@ -4,7 +4,8 @@ import Header from "../../components/Header";
 import Breadcrumb from "../../components/Breadcrumb";
 import user_img from '../../assets/img/profile-06.jpg';
 import { MapPin } from "react-feather";
-import { Tab, Tabs } from "react-bootstrap";
+import { Card, CardBody, Container, Tab, Tabs } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function DoctorProfile() {
     return (
@@ -12,10 +13,10 @@ function DoctorProfile() {
             <Header />
             <Breadcrumb />
             <div class="content">
-                <div class="container">
+                <Container>
 
-                    <div class="card">
-                        <div class="card-body">
+                    <Card>
+                        <CardBody class="card-body">
                             <div class="doctor-widget">
                                 <div class="doc-info-left">
                                     <div class="doctor-img">
@@ -41,31 +42,31 @@ function DoctorProfile() {
                                         <ul>
                                             <li><i class="far fa-comment"></i> 35 Feedback</li>
                                             <li><i class="fas fa-map-marker-alt"></i> Newyork, USA</li>
-                                            <li><i class="far fa-money-bill-alt"></i> $100 per hour </li>
+                                            <li><i class="far fa-money-bill-alt"></i> 100 per hour </li>
                                         </ul>
                                     </div>
                                     <div class="doctor-action">
-                                        <a href="chat.html" class="btn btn-white msg-btn">
+                                        <Link to="#" class="btn btn-white msg-btn">
                                             <i class="far fa-comment-alt"></i>
-                                        </a>
-                                        <a href="javascript:void(0)" class="btn btn-white call-btn" data-bs-toggle="modal" data-bs-target="#voice_call">
+                                        </Link>
+                                        <Link to="javascript:void(0)" class="btn btn-white call-btn" data-bs-toggle="modal" data-bs-target="#voice_call">
                                             <i class="fas fa-phone"></i>
-                                        </a>
-                                        <a href="javascript:void(0)" class="btn btn-white call-btn" data-bs-toggle="modal" data-bs-target="#video_call">
+                                        </Link>
+                                        <Link href="javascript:void(0)" class="btn btn-white call-btn" data-bs-toggle="modal" data-bs-target="#video_call">
                                             <i class="fas fa-video"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div class="clinic-booking">
-                                        <a class="apt-btn" href="booking.html">Book Appointment</a>
+                                        <Link class="apt-btn" to="/DoctorBooking">Book Appointment</Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </CardBody>
+                    </Card>
 
 
-                    <div class="card">
-                        <div class="card-body pt-0">
+                    <Card>
+                        <CardBody class="pt-0">
 
                             <Tabs
                                 defaultActiveKey="profile"
@@ -340,9 +341,9 @@ function DoctorProfile() {
                                     </div>
                                 </Tab>
                             </Tabs>
-                        </div>
-                    </div>
-                </div>
+                        </CardBody>
+                    </Card>
+                </Container>
             </div>
             <Footer />
         </>
